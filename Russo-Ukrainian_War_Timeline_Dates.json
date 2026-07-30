@@ -1,0 +1,4086 @@
+{
+  "meta": {
+    "generated_from": "Russo-Ukrainian_War_Timeline_Merged_Tagged.docx",
+    "description": "Structured timeline events extracted for an autonomously-updated interactive timeline database. date_start/date_end are best-effort ISO dates; date_precision indicates confidence (day, month, month-range, season, year, approx, unparsed). Verify unparsed/approx entries before production use.",
+    "event_count": 216
+  },
+  "events": [
+    {
+      "id": 1,
+      "date_text": "Late 2013",
+      "section": "Origins: 2013–2022",
+      "subsection": null,
+      "body": "Protests erupt in Kyiv (\"Euromaidan\") after President Viktor Yanukovych rejects a deal for closer EU economic integration; security forces respond with a violent crackdown.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "CFR"
+      ],
+      "date_start": "2013-11-01",
+      "date_end": "2013-11-01",
+      "date_precision": "approx"
+    },
+    {
+      "id": 2,
+      "date_text": "February 2014",
+      "section": "Origins: 2013–2022",
+      "subsection": null,
+      "body": "Yanukovych flees Ukraine amid escalating protests.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "CFR",
+        "Britannica"
+      ],
+      "date_start": "2014-02-01",
+      "date_end": "2014-02-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 3,
+      "date_text": "March 2014",
+      "section": "Origins: 2013–2022",
+      "subsection": null,
+      "body": "Russian special forces seize control of the Crimean peninsula; Russia formally annexes Crimea following a disputed referendum.",
+      "tags": [
+        "Territory",
+        "Warfare Shift"
+      ],
+      "research_categories": [],
+      "sources": [
+        "CFR",
+        "Britannica"
+      ],
+      "date_start": "2014-03-01",
+      "date_end": "2014-03-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 4,
+      "date_text": "2014",
+      "section": "Origins: 2013–2022",
+      "subsection": null,
+      "body": "Ukrainian military technologists begin adapting Western \"net-centric warfare\" concepts to Ukraine's resource-constrained fight — the conceptual origin of the later Delta battlefield-management system; the volunteer organization Aerorozvidka forms and begins modifying commercial drones and building DIY systems (including the R18 octocopter); by summer 2022 it runs roughly 50 drone teams flying about 300 flights a day.",
+      "tags": [
+        "Warfare Shift"
+      ],
+      "research_categories": [
+        "Organizational Priorities"
+      ],
+      "sources": [
+        "Carnegie",
+        "CNAS"
+      ],
+      "date_start": "2014-01-01",
+      "date_end": "2014-12-31",
+      "date_precision": "year"
+    },
+    {
+      "id": 5,
+      "date_text": "May 2014",
+      "section": "Origins: 2013–2022",
+      "subsection": null,
+      "body": "Pro-Russian separatists in Donetsk and Luhansk hold independence referendums; armed conflict breaks out between Russian-backed forces and Ukraine's military, settling into a years-long stalemate of shelling and skirmishes.",
+      "tags": [
+        "Territory",
+        "Warfare Shift"
+      ],
+      "research_categories": [],
+      "sources": [
+        "CFR"
+      ],
+      "date_start": "2014-05-01",
+      "date_end": "2014-05-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 6,
+      "date_text": "2014–2021",
+      "section": "Origins: 2013–2022",
+      "subsection": null,
+      "body": "The Donbas war claims an estimated 14,000 lives (per UN figures), about a quarter of them civilians, with roughly 40,000 wounded; Minsk-format talks fail to produce a lasting settlement. Separately, the U.S. provides roughly $21.8 billion in cumulative security assistance to Ukraine through November 2022, shifting from nonlethal aid under the Obama administration to lethal aid from 2017.",
+      "tags": [
+        "Diplomacy",
+        "Aid"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "Britannica",
+        "CRS IF12040"
+      ],
+      "date_start": "2014-01-01",
+      "date_end": "2014-12-31",
+      "date_precision": "year"
+    },
+    {
+      "id": 7,
+      "date_text": "October 2021",
+      "section": "Origins: 2013–2022",
+      "subsection": null,
+      "body": "U.S. intelligence assesses a near-certain mass-scale Russian invasion is being prepared; the Biden administration begins sharing intelligence with allies, including Ukraine, and the public.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "CFR"
+      ],
+      "date_start": "2021-10-01",
+      "date_end": "2021-10-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 8,
+      "date_text": "Nov.–Dec. 2021",
+      "section": "Origins: 2013–2022",
+      "subsection": null,
+      "body": "Commercial satellite imagery shows Russian armor, missiles, and heavy weaponry massing toward Ukraine's borders.",
+      "tags": [
+        "Warfare Shift"
+      ],
+      "research_categories": [],
+      "sources": [
+        "CFR"
+      ],
+      "date_start": "2021-11-01",
+      "date_end": "2021-12-28",
+      "date_precision": "month-range"
+    },
+    {
+      "id": 9,
+      "date_text": "Mid-December 2021",
+      "section": "Origins: 2013–2022",
+      "subsection": null,
+      "body": "Russia's foreign ministry demands the U.S. and NATO halt military activity in Eastern Europe and bar Ukraine from future NATO membership; the U.S. and NATO reject the demands and threaten severe sanctions.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "CFR"
+      ],
+      "date_start": "2021-12-15",
+      "date_end": "2021-12-15",
+      "date_precision": "approx"
+    },
+    {
+      "id": 10,
+      "date_text": "Feb. 24, 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Invasion and early fighting",
+      "body": "Russia launches a full-scale land, sea, and air invasion from Belarus, Russia, and Crimea; Putin announces a \"special military operation.\" Zelensky declares martial law and closes Ukraine's airspace. The U.S. authorizes $350 million in military assistance and orders 7,000 additional U.S. troops to Europe. Separately, a Russian cyberattack on Viasat's satellite network, timed to the invasion, disrupts Ukrainian military command-and-control and knocks out roughly 5,800 German wind turbines as collateral damage.      (DOD; CFR; UK Parliament; Britannica; CSIS (Lessons from the Ukraine Conflict))",
+      "tags": [
+        "Warfare Shift",
+        "Foreign Aid"
+      ],
+      "research_categories": [
+        "Signature Management",
+        "Expeditionary Forces/Logistics"
+      ],
+      "sources": [],
+      "date_start": "2022-02-24",
+      "date_end": "2022-02-24",
+      "date_precision": "day"
+    },
+    {
+      "id": 11,
+      "date_text": "Feb.–May 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Invasion and early fighting",
+      "body": "The U.S. orders roughly 17,500 additional troops and enablers to Europe over the invasion's opening months — 7,000 on Feb. 24, another 500 on March 5, and roughly 10,500 more by mid-May as \"one-for-one unit replacements\" — holding the total U.S. military presence in the region at approximately 100,000.",
+      "tags": [
+        "Foreign Aid"
+      ],
+      "research_categories": [
+        "Expeditionary Forces/Logistics"
+      ],
+      "sources": [
+        "DOD",
+        "UK Parliament"
+      ],
+      "date_start": "2022-02-01",
+      "date_end": "2022-05-28",
+      "date_precision": "month-range"
+    },
+    {
+      "id": 12,
+      "date_text": "Feb. 24–28, 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Invasion and early fighting",
+      "body": "Ukraine's fleet of 24 Turkish-made Bayraktar TB2 drones — the only Ukrainian system carrying precision-guided bombs at the war's outset — flies largely unopposed against Russian columns because Russian air defenses operate under restrictive rules of engagement; Ukrainian ground units simultaneously use commercial DJI Mavics and small military drones (Punisher, Leleka-100, R18) for reconnaissance and improvised strikes.",
+      "tags": [
+        "Warfare Shift"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [
+        "CNAS"
+      ],
+      "date_start": "2022-02-24",
+      "date_end": "2022-02-28",
+      "date_precision": "day"
+    },
+    {
+      "id": 13,
+      "date_text": "Feb. 24, 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Invasion and early fighting",
+      "body": "Russia's Navy captures Snake Island on day one of the invasion, with the cruiser Moskva playing a prominent role; Russia simultaneously declares a total blockade of the northwestern Black Sea, effective 0400 hours, under which several third-country merchant ships are subsequently attacked. (H I Sutton's naval-warfare tracker; source explicitly labels this blockade \"total.\")      (H I Sutton (Covert Shores))",
+      "tags": [
+        "Naval"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [],
+      "date_start": "2022-02-24",
+      "date_end": "2022-02-24",
+      "date_precision": "day"
+    },
+    {
+      "id": 14,
+      "date_text": "Feb. 25–27, 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Invasion and early fighting",
+      "body": "NATO activates its Response Force; the UN Security Council rejects a resolution condemning Russia (Russia vetoes); the UK and allies begin successive sanctions waves freezing Putin's and Lavrov's assets.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2022-02-25",
+      "date_end": "2022-02-27",
+      "date_precision": "day"
+    },
+    {
+      "id": 15,
+      "date_text": "Feb. 28–March 3, 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Invasion and early fighting",
+      "body": "Two rounds of Russia–Ukraine talks end without agreement; over 1 million refugees flee Ukraine within a week; the ICC formally launches a war-crimes investigation; the UN General Assembly votes 141–5 to deplore the invasion and demand withdrawal.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament",
+        "CFR"
+      ],
+      "date_start": "2022-02-28",
+      "date_end": "2022-03-03",
+      "date_precision": "day"
+    },
+    {
+      "id": 16,
+      "date_text": "March 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Invasion and early fighting",
+      "body": "Early Western estimates of Russian losses vary widely by source: Ukraine's foreign ministry claims 12,000 Russian personnel killed (March 8); Russian state media citing the Russian Ministry of Defense reports 9,861 killed and 16,153 wounded (March 21); NATO estimates 7,000–15,000 Russian troops killed (March 23) — the low end alone exceeding NATO's estimate of Soviet losses over ten years in Afghanistan. A U.S. official separately assesses Russian combat power had declined below 90 percent of pre-invasion levels (March 22).",
+      "tags": [
+        "Personnel/Force"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2022-03-01",
+      "date_end": "2022-03-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 17,
+      "date_text": "Before March 3, 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Invasion and early fighting",
+      "body": "The majority of Ukraine's own navy is captured, sunk, or scuttled at the onset of the invasion — including the scuttled flagship frigate Hetman Sahaidachny — leaving Ukraine's \"massively out-gunned\" fleet with only a handful of smaller vessels for the rest of the war.      (H I Sutton (Covert Shores))",
+      "tags": [
+        "Naval"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [],
+      "date_start": "2022-03-03",
+      "date_end": "2022-03-03",
+      "date_precision": "approx"
+    },
+    {
+      "id": 18,
+      "date_text": "March 6–16, 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Invasion and early fighting",
+      "body": "Russia's initial advance slows; long-range missile strikes devastate Ukrainian cities and infrastructure. The U.S. Congress passes $13.6 billion in emergency aid for Ukraine; UK and allied leaders form the \"International Ukraine Support Group.\"",
+      "tags": [
+        "Warfare Shift",
+        "Foreign Aid"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "UK Parliament",
+        "CFR"
+      ],
+      "date_start": "2022-03-06",
+      "date_end": "2022-03-16",
+      "date_precision": "day"
+    },
+    {
+      "id": 19,
+      "date_text": "March 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Invasion and early fighting",
+      "body": "As Russian air defense and electronic warfare (EW) activate in earnest roughly ten days into the invasion, TB2 and other exposed drones begin taking heavy losses; Ukrainian TB2s and Orion drones are mostly shot down by month's end and largely disappear from the front for the rest of the war, mostly to Russian surface-to-air missiles. In one of the earliest documented drone-to-artillery kill chains, Ukrainian Leleka-100 drones relay targeting coordinates via Starlink terminals to 152mm artillery, destroying a Russian armored column approaching Kyiv. Around the same time, video evidence shows Russian forces using the KUB-BLA loitering munition around Kyiv, though it underperforms and its use declines through the year.",
+      "tags": [
+        "Warfare Shift"
+      ],
+      "research_categories": [
+        "Fire/Maneuver",
+        "Signature Management"
+      ],
+      "sources": [
+        "CNAS"
+      ],
+      "date_start": "2022-03-01",
+      "date_end": "2022-03-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 20,
+      "date_text": "March 24, 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Invasion and early fighting",
+      "body": "The Russian landing ship Saratov is hit — possibly by a Ukrainian ballistic missile, per the source's own uncertainty flag — while unloading at Berdyansk on the Sea of Azov; it explodes and sinks at the quay, damaging two other landing ships, and Russia stops using the port for reinforcements.      (H I Sutton (Covert Shores))",
+      "tags": [
+        "Naval"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [],
+      "date_start": "2022-03-24",
+      "date_end": "2022-03-24",
+      "date_precision": "day"
+    },
+    {
+      "id": 21,
+      "date_text": "March 25, 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Invasion and early fighting",
+      "body": "Russia's defense ministry declares the \"first phase\" of the operation complete and announces a strategic pivot to \"liberation\" of the Donbas, foreshadowing withdrawal from the Kyiv front.",
+      "tags": [
+        "Warfare Shift"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2022-03-25",
+      "date_end": "2022-03-25",
+      "date_precision": "day"
+    },
+    {
+      "id": 22,
+      "date_text": "April 1–6, 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Invasion and early fighting",
+      "body": "Russia completes a full troop withdrawal from the Kyiv region; evidence of war crimes (summary executions, torture) emerges in Bucha, prompting new U.S./UK/EU sanctions.",
+      "tags": [
+        "Warfare Shift"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament",
+        "Britannica"
+      ],
+      "date_start": "2022-04-01",
+      "date_end": "2022-04-06",
+      "date_precision": "day"
+    },
+    {
+      "id": 23,
+      "date_text": "April 13–14, 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Invasion and early fighting",
+      "body": "The Slava-class cruiser Moskva — the Black Sea Fleet's flagship and most powerful warship in the theater — is hit by two Ukrainian Neptune anti-ship missiles and sinks the next day, described by naval analyst H I Sutton as a \"precursor of things to come\" for Russian naval predictability.      (CNAS; H I Sutton (Covert Shores))",
+      "tags": [
+        "Warfare Shift",
+        "Territory",
+        "Naval"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [],
+      "date_start": "2022-04-13",
+      "date_end": "2022-04-14",
+      "date_precision": "day"
+    },
+    {
+      "id": 24,
+      "date_text": "April 18, 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Invasion and early fighting",
+      "body": "Russia launches a new major offensive in eastern Ukraine after its failed attempt to seize Kyiv, concentrating forces in the Donbas and southeast.",
+      "tags": [
+        "Warfare Shift",
+        "Territory"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament",
+        "CFR"
+      ],
+      "date_start": "2022-04-18",
+      "date_end": "2022-04-18",
+      "date_precision": "day"
+    },
+    {
+      "id": 25,
+      "date_text": "April 24–26, 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Invasion and early fighting",
+      "body": "U.S. Secretaries of State and Defense (Blinken and Austin) visit Kyiv to meet Zelensky and discuss security and economic support; two days later, the U.S. hosts the first Ukraine Defense Contact Group (\"Ramstein format\") meeting, with 40-plus nations attending — the coordination body that continues through at least its 25th meeting in January 2025.",
+      "tags": [
+        "Diplomacy",
+        "Foreign Aid"
+      ],
+      "research_categories": [
+        "Organizational Priorities"
+      ],
+      "sources": [
+        "DOD",
+        "UK Parliament"
+      ],
+      "date_start": "2022-04-24",
+      "date_end": "2022-04-26",
+      "date_precision": "day"
+    },
+    {
+      "id": 26,
+      "date_text": "April–August 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Invasion and early fighting",
+      "body": "As the front stabilizes into attritional fighting around the Donbas, drones become the principal reconnaissance and artillery-targeting tool at nearly every echelon; Russia deploys a very dense electronic-warfare network in the Donbas causing pervasive jamming of navigation and communications, which RUSI estimates destroyed some 90 percent of Ukrainian drones fielded to that point, with commercial quadcopters surviving an average of just three flights and military drones six. Ukraine responds with man-portable EW guns to attrit Russian drones including the Orlan-10; Russian EW tactics are also noted to cause considerable fratricide among Russia's own drones from poor deconfliction.",
+      "tags": [
+        "Warfare Shift"
+      ],
+      "research_categories": [
+        "Fire/Maneuver",
+        "Signature Management"
+      ],
+      "sources": [
+        "CNAS"
+      ],
+      "date_start": "2022-04-01",
+      "date_end": "2022-08-28",
+      "date_precision": "month-range"
+    },
+    {
+      "id": 27,
+      "date_text": "May 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Invasion and early fighting",
+      "body": "Russian forces take Mariupol, a major strategic port city, amid allegations of war crimes against civilians; fighting becomes largely confined to Ukraine's east and south.",
+      "tags": [
+        "Territory"
+      ],
+      "research_categories": [],
+      "sources": [
+        "CFR"
+      ],
+      "date_start": "2022-05-01",
+      "date_end": "2022-05-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 28,
+      "date_text": "May 9, 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Invasion and early fighting",
+      "body": "The U.S. Congress passes, and Biden signs, the Ukraine Democracy Defense Lend-Lease Act, easing the transfer of U.S. defense equipment.",
+      "tags": [
+        "Foreign Aid"
+      ],
+      "research_categories": [],
+      "sources": [
+        "DOD"
+      ],
+      "date_start": "2022-05-09",
+      "date_end": "2022-05-09",
+      "date_precision": "day"
+    },
+    {
+      "id": 29,
+      "date_text": "June 1, 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Aid scales up; annexation, counterattack, and the first deep strikes",
+      "body": "The U.S. approves its first HIMARS long-range rocket systems for Ukraine — a significant shift in Western-supplied strike capability.",
+      "tags": [
+        "Foreign Aid",
+        "Warfare Shift"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [
+        "DOD"
+      ],
+      "date_start": "2022-06-01",
+      "date_end": "2022-06-01",
+      "date_precision": "day"
+    },
+    {
+      "id": 30,
+      "date_text": "June 30, 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Aid scales up; annexation, counterattack, and the first deep strikes",
+      "body": "Russian forces are driven from Snake Island in the Black Sea, weakening Russia's naval blockade and allowing Ukraine to expand Danube port shipping; combined with the earlier loss of the Moskva, Russia's ability to project force in the western Black Sea is significantly degraded.",
+      "tags": [
+        "Territory",
+        "Warfare Shift"
+      ],
+      "research_categories": [],
+      "sources": [
+        "Britannica"
+      ],
+      "date_start": "2022-06-30",
+      "date_end": "2022-06-30",
+      "date_precision": "day"
+    },
+    {
+      "id": 31,
+      "date_text": "July 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Aid scales up; annexation, counterattack, and the first deep strikes",
+      "body": "President Zelensky launches the crowdsourced \"Army of Drones\" initiative, aiming to raise $100 million for drone procurement; within seven months it purchases several thousand drones and trains 10,000 pilots. That same month, Ukraine records its first known FPV kamikaze drone strike — a modified racing drone flown through the doorway of a house to reach its target.",
+      "tags": [
+        "Warfare Shift",
+        "Foreign Aid"
+      ],
+      "research_categories": [
+        "Fire/Maneuver",
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "CNAS"
+      ],
+      "date_start": "2022-07-01",
+      "date_end": "2022-07-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 32,
+      "date_text": "July 22, 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Aid scales up; annexation, counterattack, and the first deep strikes",
+      "body": "Russia and Ukraine sign the Black Sea Grain Initiative, brokered by Turkey and the UN, freeing more than 20 million tons of grain from Russian-blockaded ports.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "CFR"
+      ],
+      "date_start": "2022-07-22",
+      "date_end": "2022-07-22",
+      "date_precision": "day"
+    },
+    {
+      "id": 33,
+      "date_text": "Aug. 1 – late Aug. 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Aid scales up; annexation, counterattack, and the first deep strikes",
+      "body": "Ukraine strikes Russia's Black Sea Fleet headquarters in Sevastopol with a drone attack that forces cancellation of Russia's Navy Day celebration, followed weeks later by a second drone strike on the same headquarters building.",
+      "tags": [
+        "Warfare Shift",
+        "Naval"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [
+        "CNAS"
+      ],
+      "date_start": "2022-08-01",
+      "date_end": "2022-08-25",
+      "date_precision": "approx"
+    },
+    {
+      "id": 34,
+      "date_text": "July 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Aid scales up; annexation, counterattack, and the first deep strikes",
+      "body": "Threatened by Harpoon and Neptune missiles, Russian ships largely withdraw from the western side of the northern Black Sea — a shift the source calls \"a significant change in the balance,\" months before Ukraine's drone-boat campaign even begins.      (H I Sutton (Covert Shores))",
+      "tags": [
+        "Warfare Shift",
+        "Naval"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [],
+      "date_start": "2022-07-01",
+      "date_end": "2022-07-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 35,
+      "date_text": "Aug. 9, 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Aid scales up; annexation, counterattack, and the first deep strikes",
+      "body": "A massive explosion destroys up to nine Russian aircraft at an air base in Crimea, signaling Ukraine's growing capacity to strike deep behind Russian lines.",
+      "tags": [
+        "Warfare Shift"
+      ],
+      "research_categories": [],
+      "sources": [
+        "Britannica"
+      ],
+      "date_start": "2022-08-09",
+      "date_end": "2022-08-09",
+      "date_precision": "day"
+    },
+    {
+      "id": 36,
+      "date_text": "Aug. 24, 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Aid scales up; annexation, counterattack, and the first deep strikes",
+      "body": "On Ukraine's Independence Day, the U.S. announces roughly $3 billion in additional security assistance — its largest security-assistance tranche to that point.",
+      "tags": [
+        "Foreign Aid"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "DOD"
+      ],
+      "date_start": "2022-08-24",
+      "date_end": "2022-08-24",
+      "date_precision": "day"
+    },
+    {
+      "id": 37,
+      "date_text": "Sept.–Oct. 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Aid scales up; annexation, counterattack, and the first deep strikes",
+      "body": "Putin authorizes what amounts to a parallel military structure outside the regular Russian army: the Wagner Group opens a headquarters in St. Petersburg and begins openly recruiting from Russian prisons, growing from roughly 5,000 fighters before the invasion to roughly 50,000 by year's end.",
+      "tags": [
+        "Personnel/Force",
+        "Command/Org"
+      ],
+      "research_categories": [
+        "Civil-Military Relations",
+        "Organizational Priorities"
+      ],
+      "sources": [
+        "Britannica"
+      ],
+      "date_start": "2022-09-01",
+      "date_end": "2022-10-28",
+      "date_precision": "month-range"
+    },
+    {
+      "id": 38,
+      "date_text": "September 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Aid scales up; annexation, counterattack, and the first deep strikes",
+      "body": "Russia fires its first Iranian-supplied Shahed-136 kamikaze drones in combat, striking Odesa over three consecutive days; the Russian defense ministry reverses its earlier policy and begins permitting mobilized soldiers to bring personal commercial drones to the front. CSIS's Firepower Strike Tracker begins compiling daily Ukrainian Air Force strike data starting Sept. 27; Russia's official casualty statement that month claims 5,937 Russian troops killed.      (CNAS; CSIS (Russian Firepower Strike Tracker))",
+      "tags": [
+        "Warfare Shift"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [],
+      "date_start": "2022-09-01",
+      "date_end": "2022-09-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 39,
+      "date_text": "Sept. 6–10, 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Aid scales up; annexation, counterattack, and the first deep strikes",
+      "body": "Ukraine launches a surprise counteroffensive in the Kharkiv region; Russian lines collapse and Ukraine liberates more than 3,400 square miles of territory within a week, including the rail hub of Izyum. ISW's Sept. 10 assessment characterized the collapse as a rapid, poorly-resisted Russian withdrawal rather than an orderly retreat, noting Russian forces abandoned significant quantities of equipment and that Russian milbloggers openly criticized military leadership for the rout — an early instance of the informational fissures that would recur throughout the war.",
+      "tags": [
+        "Territory",
+        "Warfare Shift"
+      ],
+      "research_categories": [],
+      "sources": [
+        "Britannica",
+        "CFR",
+        "ISW"
+      ],
+      "date_start": "2022-09-06",
+      "date_end": "2022-09-10",
+      "date_precision": "day"
+    },
+    {
+      "id": 40,
+      "date_text": "Sept. 21, 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Aid scales up; annexation, counterattack, and the first deep strikes",
+      "body": "Putin declares a \"partial mobilization\" of 300,000 troops, triggering nationwide protests and prompting an estimated 260,000–700,000 draft-age men to flee Russia.",
+      "tags": [
+        "Warfare Shift"
+      ],
+      "research_categories": [],
+      "sources": [
+        "Britannica",
+        "CFR"
+      ],
+      "date_start": "2022-09-21",
+      "date_end": "2022-09-21",
+      "date_precision": "day"
+    },
+    {
+      "id": 41,
+      "date_text": "Sept. 30, 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Aid scales up; annexation, counterattack, and the first deep strikes",
+      "body": "Putin signs treaties illegally annexing four occupied Ukrainian regions — Luhansk, Donetsk, Kherson, and Zaporizhzhia — the largest forcible territorial takeover in Europe since World War II; the UN Security Council rejects it (10–1) and the General Assembly condemns it (143 in favor).",
+      "tags": [
+        "Territory",
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament",
+        "CFR"
+      ],
+      "date_start": "2022-09-30",
+      "date_end": "2022-09-30",
+      "date_precision": "day"
+    },
+    {
+      "id": 42,
+      "date_text": "Oct. 23–24, 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Aid scales up; annexation, counterattack, and the first deep strikes",
+      "body": "In a rare, Russian-initiated contact, UK Defence Secretary Ben Wallace speaks by phone with his Russian counterpart Sergei Shoigu; the next day, Russia's Chief of General Staff Valery Gerasimov speaks separately with UK CDS Tony Radakin and U.S. JCS Chairman Mark Milley.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2022-10-23",
+      "date_end": "2022-10-24",
+      "date_precision": "day"
+    },
+    {
+      "id": 43,
+      "date_text": "Early October 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Aid scales up; annexation, counterattack, and the first deep strikes",
+      "body": "An unusual small, low-profile black boat — a modified jet ski fitted with a camera, radio link, and explosives — washes ashore in Crimea, giving the world its first hint that Ukraine had developed maritime kamikaze drone boats, a capability no other belligerent in the war has developed.",
+      "tags": [
+        "Warfare Shift",
+        "Naval"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [
+        "CNAS"
+      ],
+      "date_start": "2022-10-05",
+      "date_end": "2022-10-05",
+      "date_precision": "approx"
+    },
+    {
+      "id": 44,
+      "date_text": "Oct. 8, 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Aid scales up; annexation, counterattack, and the first deep strikes",
+      "body": "Ukraine attacks the Kerch Strait bridge linking Russia to Crimea with a truck bomb, partially destroying the span; the Kremlin estimates repairs will take almost a year.",
+      "tags": [
+        "Warfare Shift",
+        "Naval"
+      ],
+      "research_categories": [],
+      "sources": [
+        "Britannica"
+      ],
+      "date_start": "2022-10-08",
+      "date_end": "2022-10-08",
+      "date_precision": "day"
+    },
+    {
+      "id": 45,
+      "date_text": "Oct. 29, 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Aid scales up; annexation, counterattack, and the first deep strikes",
+      "body": "In a coordinated raid on Sevastopol, nine aerial drones and seven improvised kamikaze drone boats penetrate the inner harbor and strike the Black Sea Fleet flagship Admiral Makarov; Russia responds by camouflaging its ships' bow and stern.",
+      "tags": [
+        "Warfare Shift",
+        "Territory",
+        "Naval"
+      ],
+      "research_categories": [
+        "Fire/Maneuver",
+        "Signature Management"
+      ],
+      "sources": [
+        "CNAS"
+      ],
+      "date_start": "2022-10-29",
+      "date_end": "2022-10-29",
+      "date_precision": "day"
+    },
+    {
+      "id": 46,
+      "date_text": "November 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Aid scales up; annexation, counterattack, and the first deep strikes",
+      "body": "A follow-on Ukrainian drone-boat attack damages the oil terminal at Novorossiysk, Russia.",
+      "tags": [
+        "Warfare Shift",
+        "Naval"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [
+        "CNAS"
+      ],
+      "date_start": "2022-11-01",
+      "date_end": "2022-11-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 47,
+      "date_text": "Nov. 7, 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Aid scales up; annexation, counterattack, and the first deep strikes",
+      "body": "Ukraine receives its first NASAMS air-defense system from the United States, part of an expanding Western air-defense package that also includes German Gepard anti-aircraft guns — credited with intercepting more than 500 Shahed-136 drones in the last four months of the year — Spanish HAWK and Aspide systems, and French Crotale units.",
+      "tags": [
+        "Foreign Aid",
+        "Air Defense"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [
+        "DOD",
+        "Britannica"
+      ],
+      "date_start": "2022-11-07",
+      "date_end": "2022-11-07",
+      "date_precision": "day"
+    },
+    {
+      "id": 48,
+      "date_text": "Nov. 9–11, 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Aid scales up; annexation, counterattack, and the first deep strikes",
+      "body": "Russia withdraws its forces from the city of Kherson, the only Ukrainian regional capital it had captured; Zelensky calls it \"the beginning of the end of the war.\" ISW's Nov. 11 assessment recorded Russian sources' own claim that roughly 20,000 personnel and 3,500 pieces of equipment crossed to the Dnipro's eastern bank over three days, and that retreating Russian forces destroyed the Antonivsky and Darivka bridges and damaged the Nova Kakhovka dam bridge to slow a Ukrainian follow-on advance; Ukrainian troops advanced into Kherson City itself as civilians came out to greet them, while Russian military bloggers' notably muted reaction to the loss reflected an information-management effort tied to Gen. Sergey Surovikin's leadership.",
+      "tags": [
+        "Territory"
+      ],
+      "research_categories": [],
+      "sources": [
+        "Britannica",
+        "ISW"
+      ],
+      "date_start": "2022-11-09",
+      "date_end": "2022-11-11",
+      "date_precision": "day"
+    },
+    {
+      "id": 49,
+      "date_text": "Nov. 23, 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Aid scales up; annexation, counterattack, and the first deep strikes",
+      "body": "Cumulative U.S.-committed equipment for the year includes 1,800+ Phoenix Ghost tactical UAS, 700+ Switchblade tactical UAS, 38 HIMARS, 8 NASAMS, and thousands of Javelin and Stinger systems, on top of the year's 26 Presidential Drawdown Authority packages ($11.7 billion), $9.3 billion in USAI funding, and $4.65 billion in Foreign Military Financing (about $28 billion total legislated); NATO and EU members separately commit more than $13 billion in additional aid.",
+      "tags": [
+        "Foreign Aid",
+        "Warfare Shift"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "CRS IF12040"
+      ],
+      "date_start": "2022-11-23",
+      "date_end": "2022-11-23",
+      "date_precision": "day"
+    },
+    {
+      "id": 50,
+      "date_text": "Fall 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Aid scales up; annexation, counterattack, and the first deep strikes",
+      "body": "Russia begins fielding the Lancet-3 loitering munition at scale for precision counter-battery strikes as Orlan-10 inventories run low; by October 2022 Russia reports employing several hundred KUB and Lancet-3 drones combined. Ukraine's Army of Drones funds purchase of roughly 40 Polish-made Warmate kamikaze drones.",
+      "tags": [
+        "Warfare Shift",
+        "Foreign Aid"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [
+        "CNAS"
+      ],
+      "date_start": "2022-10-01",
+      "date_end": "2022-10-01",
+      "date_precision": "season"
+    },
+    {
+      "id": 51,
+      "date_text": "Fall 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Aid scales up; annexation, counterattack, and the first deep strikes",
+      "body": "The volunteer group Dronnitsa (formed Sept. 2022) builds a training pipeline for Russian quadcopter pilots; by month's end the Russian Ministry of Defense formally announces newly mobilized soldiers may bring their own quadcopters. Detection data shows a roughly 9-to-1 Ukrainian advantage in fielded commercial drones (2,624 to 284, June–Dec. 2022) — an advantage that would largely disappear by early 2023 as Russia caught up in both volume and jamming capability.",
+      "tags": [
+        "Warfare Shift"
+      ],
+      "research_categories": [
+        "Fire/Maneuver",
+        "Signature Management"
+      ],
+      "sources": [
+        "CNAS"
+      ],
+      "date_start": "2022-10-01",
+      "date_end": "2022-10-01",
+      "date_precision": "season"
+    },
+    {
+      "id": 52,
+      "date_text": "Oct.–Dec. 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Aid scales up; annexation, counterattack, and the first deep strikes",
+      "body": "Ukraine's deep-strike drone campaign inside Russia intensifies: an Oct. 7 kamikaze drone strike damages two Tu-22M bombers at Shaykovka air base (140 miles inside Russia); in December, Ukraine arms Soviet-era Tu-141 Strizh reconnaissance drones for strikes on the Engels and Dyagilevo strategic air bases roughly 300 miles inside Russia — the December strikes kill three military personnel and wound four more — while the U.S. delivers the first, larger Switchblade 600 anti-tank loitering munitions.",
+      "tags": [
+        "Warfare Shift",
+        "Territory",
+        "Foreign Aid"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [
+        "CNAS"
+      ],
+      "date_start": "2022-10-01",
+      "date_end": "2022-12-28",
+      "date_precision": "month-range"
+    },
+    {
+      "id": 53,
+      "date_text": "Dec. 21, 2022",
+      "section": "2022: Full-Scale Invasion and the Battle for Kyiv",
+      "subsection": "Aid scales up; annexation, counterattack, and the first deep strikes",
+      "body": "Zelensky makes his first trip abroad since the invasion, visiting Washington; Biden announces $1.85 billion in additional security assistance. (The DOD timeline itself does not attach a Patriot-battery pledge to this date; the U.S. commitment to send Ukraine's first Patriot battery is documented in DOD's own record under the Jan. 6, 2023 entry, alongside Germany's parallel Patriot pledge.)",
+      "tags": [
+        "Foreign Aid",
+        "Diplomacy"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "DOD",
+        "UK Parliament"
+      ],
+      "date_start": "2022-12-21",
+      "date_end": "2022-12-21",
+      "date_precision": "day"
+    },
+    {
+      "id": 54,
+      "date_text": "Jan. 6, 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "Germany commits to supplying a Patriot air-defense battery; the U.S. announces a $3.075 billion package, its largest single security-assistance tranche to date.",
+      "tags": [
+        "Foreign Aid"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "DOD"
+      ],
+      "date_start": "2023-01-06",
+      "date_end": "2023-01-06",
+      "date_precision": "day"
+    },
+    {
+      "id": 55,
+      "date_text": "Jan. 14–25, 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "The UK becomes the first country to pledge Western main battle tanks (Challenger 2), followed within days by Germany's Leopard 2 tanks and U.S. M1 Abrams tanks — a major escalation in the armor supplied to Ukraine after nearly a year of reluctance; by end of January more than 300 modern Western tanks have been pledged in total.",
+      "tags": [
+        "Foreign Aid",
+        "Warfare Shift"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "UK Parliament",
+        "Britannica"
+      ],
+      "date_start": "2023-01-14",
+      "date_end": "2023-01-25",
+      "date_precision": "day"
+    },
+    {
+      "id": 56,
+      "date_text": "Feb. 6, 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "Norway announces a five-year, roughly £6.1 billion support package for Ukraine — one of the largest per-capita donor commitments of the war.",
+      "tags": [
+        "Foreign Aid"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2023-02-06",
+      "date_end": "2023-02-06",
+      "date_precision": "day"
+    },
+    {
+      "id": 57,
+      "date_text": "Feb. 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "Ukraine's Ministry of Defence formally adopts Delta, the Aerorozvidka-developed battlefield-mapping software that fuses drone footage, satellite imagery, and human intelligence into layered maps — a structural centralization move later made mandatory across all units in August 2025.",
+      "tags": [
+        "Warfare Shift",
+        "Command/Org"
+      ],
+      "research_categories": [
+        "Organizational Priorities",
+        "Centralization of C2"
+      ],
+      "sources": [
+        "CNAS"
+      ],
+      "date_start": "2023-02-01",
+      "date_end": "2023-02-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 58,
+      "date_text": "Feb. 20, 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "President Biden makes a surprise visit to Kyiv ahead of the invasion's first anniversary, announcing a further $500 million in aid.",
+      "tags": [
+        "Diplomacy",
+        "Foreign Aid"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "UK Parliament",
+        "Britannica"
+      ],
+      "date_start": "2023-02-20",
+      "date_end": "2023-02-20",
+      "date_precision": "day"
+    },
+    {
+      "id": 59,
+      "date_text": "Feb. 24, 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "On the war's first anniversary, the U.S. announces $2 billion in additional aid; China releases a 12-point position paper positioning itself as a neutral party urging peace talks.",
+      "tags": [
+        "Diplomacy",
+        "Foreign Aid"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "DOD",
+        "CFR"
+      ],
+      "date_start": "2023-02-24",
+      "date_end": "2023-02-24",
+      "date_precision": "day"
+    },
+    {
+      "id": 60,
+      "date_text": "March 17, 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "The International Criminal Court issues an arrest warrant for Putin over the forced deportation of Ukrainian children, an estimated 20,000 of whom Ukraine says were abducted.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "Britannica"
+      ],
+      "date_start": "2023-03-17",
+      "date_end": "2023-03-17",
+      "date_precision": "day"
+    },
+    {
+      "id": 61,
+      "date_text": "March 21, 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "China's Xi Jinping concludes a state visit to Moscow, signing a strategic-cooperation statement with Putin; Japan's PM Kishida visits Zelensky in Kyiv the same day, meaning every G7 leader has now visited Ukraine.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2023-03-21",
+      "date_end": "2023-03-21",
+      "date_precision": "day"
+    },
+    {
+      "id": 62,
+      "date_text": "March 22, 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "Sweden's parliament formally approves joining NATO (296–37); the IMF agrees a four-year, $15.6 billion financing package for Ukraine.",
+      "tags": [
+        "Diplomacy",
+        "Foreign Aid"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2023-03-22",
+      "date_end": "2023-03-22",
+      "date_precision": "day"
+    },
+    {
+      "id": 63,
+      "date_text": "As of March 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "The open-source tracker Oryx has visually confirmed 54 Lancet-3 strikes on Ukrainian howitzers and multiple-rocket-launchers alone, plus strikes on five air-defense systems.",
+      "tags": [
+        "Warfare Shift"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [
+        "CNAS"
+      ],
+      "date_start": "2023-03-01",
+      "date_end": "2023-03-31",
+      "date_precision": "approx"
+    },
+    {
+      "id": 64,
+      "date_text": "March 24–31, 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "Russia agrees to station tactical nuclear weapons in Belarus; Denmark, Finland, Norway, and Sweden sign a Nordic air-defense cooperation pact; Turkey becomes the last NATO member to ratify Finland's accession.",
+      "tags": [
+        "Diplomacy",
+        "Warfare Shift"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2023-03-24",
+      "date_end": "2023-03-31",
+      "date_precision": "day"
+    },
+    {
+      "id": 65,
+      "date_text": "March 29, 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "Germany agrees an additional €12 billion in military support for Ukraine — €8 billion for direct weapons purchases and €4 billion to replenish German stocks.",
+      "tags": [
+        "Foreign Aid"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2023-03-29",
+      "date_end": "2023-03-29",
+      "date_precision": "day"
+    },
+    {
+      "id": 66,
+      "date_text": "April 3–4, 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "NATO's Secretary-General says allies have delivered Ukraine €65 billion in military aid to date; Finland formally becomes NATO's 31st member.",
+      "tags": [
+        "Foreign Aid",
+        "Diplomacy"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2023-04-03",
+      "date_end": "2023-04-04",
+      "date_precision": "day"
+    },
+    {
+      "id": 67,
+      "date_text": "May 11, 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "The UK confirms it is supplying Ukraine with long-range Storm Shadow cruise missiles — the first Western-supplied weapon of that range.",
+      "tags": [
+        "Foreign Aid",
+        "Warfare Shift"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2023-05-11",
+      "date_end": "2023-05-11",
+      "date_precision": "day"
+    },
+    {
+      "id": 68,
+      "date_text": "May 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "Russia claims control of Bakhmut after a months-long siege; U.S. estimates put Russian casualties in the battle above 100,000, including more than 20,000 killed. Wagner chief Prigozhin separately states at least 20,000 Wagner fighters died in the fight.",
+      "tags": [
+        "Territory",
+        "Warfare Shift",
+        "Personnel/Force"
+      ],
+      "research_categories": [],
+      "sources": [
+        "CFR",
+        "Britannica"
+      ],
+      "date_start": "2023-05-01",
+      "date_end": "2023-05-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 69,
+      "date_text": "May 25, 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "Belarus confirms the relocation of Russian tactical nuclear weapons onto its territory has begun — the first such deployment outside Russia since the 1991 Soviet collapse.",
+      "tags": [
+        "Warfare Shift",
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2023-05-25",
+      "date_end": "2023-05-25",
+      "date_precision": "day"
+    },
+    {
+      "id": 70,
+      "date_text": "May–Aug. 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "Ukraine's deep-strike campaign achieves rough symmetry with Russia's for the first time: drones strike a Moscow skyscraper (May and July), two drones hit the Kremlin (May), and an Aug. 30 strike hits at least six locations including Pskov air base (370 miles from Ukraine). Zelensky calls the shift \"an inevitable, natural and absolutely fair process.\"",
+      "tags": [
+        "Warfare Shift",
+        "Territory"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [
+        "CNAS"
+      ],
+      "date_start": "2023-05-01",
+      "date_end": "2023-08-28",
+      "date_precision": "month-range"
+    },
+    {
+      "id": 71,
+      "date_text": "First 15 months of the war",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "Ukraine receives more than 30,000 Starlink satellite terminals, becoming the essential communications backbone for nearly every frontline unit and for software like Delta and the artillery-coordination app Kropyva, which lets units engage a target as little as 30 seconds after receiving drone-sourced coordinates.",
+      "tags": [
+        "Warfare Shift",
+        "Foreign Aid"
+      ],
+      "research_categories": [
+        "Fire/Maneuver",
+        "Centralization of C2"
+      ],
+      "sources": [
+        "CNAS"
+      ],
+      "date_start": "2022-02-24",
+      "date_end": "2023-05-24",
+      "date_precision": "range"
+    },
+    {
+      "id": 72,
+      "date_text": "June 6, 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "Russian forces breach the Kakhovka Dam, flooding roughly 240 square miles, killing scores and leaving up to a million people without drinking water.",
+      "tags": [
+        "Warfare Shift",
+        "Territory"
+      ],
+      "research_categories": [],
+      "sources": [
+        "CFR",
+        "Britannica"
+      ],
+      "date_start": "2023-06-06",
+      "date_end": "2023-06-06",
+      "date_precision": "day"
+    },
+    {
+      "id": 73,
+      "date_text": "June 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "Ukraine launches its much-anticipated summer counteroffensive in Donetsk and Zaporizhzhia aiming at the \"land corridor\" to Crimea; it meets heavy Russian minefields and fortifications, making only small territorial gains.",
+      "tags": [
+        "Territory",
+        "Warfare Shift"
+      ],
+      "research_categories": [],
+      "sources": [
+        "CFR"
+      ],
+      "date_start": "2023-06-01",
+      "date_end": "2023-06-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 74,
+      "date_text": "June–Sept. 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "During the counteroffensive, drones of all types saturate the airspace over the Zaporizhzhia and Bakhmut axes, and by June, Russian forces have emulated Ukraine's FPV kamikaze tactic at scale, with both sides' volunteer networks producing tens of thousands a month. Ukrainian crews adapt by flying only when they find gaps in Russia's layered EW coverage and frequently changing radio frequencies to evade jamming; both sides increasingly use drone-tracking software (AeroScope, WindtalkerX) to locate and strike enemy drone operators.",
+      "tags": [
+        "Warfare Shift",
+        "Territory"
+      ],
+      "research_categories": [
+        "Fire/Maneuver",
+        "Signature Management"
+      ],
+      "sources": [
+        "CNAS"
+      ],
+      "date_start": "2023-06-01",
+      "date_end": "2023-09-28",
+      "date_precision": "month-range"
+    },
+    {
+      "id": 75,
+      "date_text": "June 21–July 12, 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "The Ukraine Recovery Conference is held in London; the NATO summit in Vilnius establishes a NATO-Ukraine Council and a multi-year package to bring Ukraine \"closer to NATO,\" while stopping short of a membership invitation.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2023-06-21",
+      "date_end": "2023-07-12",
+      "date_precision": "day"
+    },
+    {
+      "id": 76,
+      "date_text": "June 23–24, 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "Wagner Group leader Yevgeny Prigozhin launches an armed mutiny, advancing an armored column of roughly 25,000 mercenaries to within roughly 120 miles of Moscow — downing more than half a dozen Russian aircraft along the way — before Belarus's Lukashenko brokers a stand-down deal; the feud among Prigozhin, Defense Minister Shoigu, and General Staff chief Gerasimov had climaxed days earlier when Prigozhin \"declared war\" on the Russian defense ministry. ISW's same-day (June 23) assessment judged the rebellion unlikely to succeed even as it unfolded, noting that Russian security forces mobilized in Moscow and Rostov-on-Don and that Wagner-affiliated Gen. Sergei Surovikin publicly denounced Prigozhin's call to arms — a defection ISW flagged as a major blow to Wagner's ability to rally the regular military to its cause. Prigozhin is later killed in a plane crash (August 2023).",
+      "tags": [
+        "Warfare Shift",
+        "Diplomacy",
+        "Command/Org"
+      ],
+      "research_categories": [
+        "Civil-Military Relations",
+        "Organizational Priorities"
+      ],
+      "sources": [
+        "CFR",
+        "Britannica",
+        "UK Parliament",
+        "ISW"
+      ],
+      "date_start": "2023-06-23",
+      "date_end": "2023-06-24",
+      "date_precision": "day"
+    },
+    {
+      "id": 77,
+      "date_text": "Aug. 25, 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "Putin decrees that all Wagner fighters swear an oath to the Russian state, effectively folding the mercenary force under the umbrella of the regular Russian military in the wake of Prigozhin's mutiny and death.",
+      "tags": [
+        "Command/Org"
+      ],
+      "research_categories": [
+        "Civil-Military Relations",
+        "Organizational Priorities"
+      ],
+      "sources": [
+        "Britannica"
+      ],
+      "date_start": "2023-08-25",
+      "date_end": "2023-08-25",
+      "date_precision": "day"
+    },
+    {
+      "id": 78,
+      "date_text": "July 3, 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "The International Centre for the Prosecution of the Crime of Aggression against Ukraine (ICPA) begins work in The Hague, laying groundwork for a possible future tribunal on Russia's leadership.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2023-07-03",
+      "date_end": "2023-07-03",
+      "date_precision": "day"
+    },
+    {
+      "id": 79,
+      "date_text": "July 17, 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "Russia formally withdraws from the Black Sea Grain Initiative; Ukraine subsequently establishes its own protected shipping corridor along the Romanian and Bulgarian coasts.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "CFR",
+        "Britannica"
+      ],
+      "date_start": "2023-07-17",
+      "date_end": "2023-07-17",
+      "date_precision": "day"
+    },
+    {
+      "id": 80,
+      "date_text": "2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "Ukrainian naval drones and cruise missiles destroy the Kilo-class submarine Rostov-on-Don — the first combat loss of a Soviet or Russian submarine since World War II — prompting Russia to relocate a major portion of the Black Sea Fleet from Crimea to Novorossiysk by October.",
+      "tags": [
+        "Warfare Shift",
+        "Naval"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [
+        "Britannica"
+      ],
+      "date_start": "2023-01-01",
+      "date_end": "2023-12-31",
+      "date_precision": "year"
+    },
+    {
+      "id": 81,
+      "date_text": "Summer 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "Ukraine's maritime drone-boat campaign escalates, supporting attacks on the Kerch Strait bridge, a Russian oil tanker, and a Russian landing ship at Novorossiysk; Ukraine later stands up the 385th Separate Brigade to formally operate its drone-boat fleet.",
+      "tags": [
+        "Warfare Shift",
+        "Territory",
+        "Naval"
+      ],
+      "research_categories": [
+        "Fire/Maneuver",
+        "Organizational Priorities"
+      ],
+      "sources": [
+        "CNAS"
+      ],
+      "date_start": "2023-07-01",
+      "date_end": "2023-07-01",
+      "date_precision": "season"
+    },
+    {
+      "id": 82,
+      "date_text": "Spring 2023 (Bakhmut)",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "Electronic interference becomes so extensive that Ukrainian soldiers report their quadcopters can fly only 500 meters before losing control; a senior Ukrainian official estimates Russian electronic attacks caused roughly half of all Ukrainian drone losses. Per RUSI, Ukraine is losing approximately 10,000 drones a month at this point, mostly commercial or DIY models.",
+      "tags": [
+        "Warfare Shift"
+      ],
+      "research_categories": [
+        "Fire/Maneuver",
+        "Signature Management"
+      ],
+      "sources": [
+        "CNAS"
+      ],
+      "date_start": "2023-04-01",
+      "date_end": "2023-05-21",
+      "date_precision": "approx"
+    },
+    {
+      "id": 83,
+      "date_text": "August 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "The U.S. authorizes transfer of F-16 fighter jets to Ukraine, with more than a dozen countries pledging aircraft, instructors, and munitions. Separately, since Sept. 11, 2022, Russia has fired 144 missile-and-drone salvos into Ukraine, including more than 1,600 Shahed-136 drones and 1,651 missiles; Ukraine reports downing 1,570 Shaheds by Aug. 30, 2023.",
+      "tags": [
+        "Foreign Aid",
+        "Warfare Shift"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [
+        "Britannica",
+        "CNAS"
+      ],
+      "date_start": "2023-08-01",
+      "date_end": "2023-08-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 84,
+      "date_text": "Aug. 18, 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "The U.S. approves Denmark and the Netherlands transferring F-16 fighter jets to Ukraine once pilot training is complete.",
+      "tags": [
+        "Foreign Aid",
+        "Warfare Shift"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2023-08-18",
+      "date_end": "2023-08-18",
+      "date_precision": "day"
+    },
+    {
+      "id": 85,
+      "date_text": "Sept. 12–13, 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "Kim Jong Un travels to Russia for a summit with Putin to discuss North Korean arms supplies — the first such summit — while G7 foreign ministers condemn Russia's staged \"elections\" in occupied Ukrainian territory.",
+      "tags": [
+        "Diplomacy",
+        "Foreign Aid"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2023-09-12",
+      "date_end": "2023-09-13",
+      "date_precision": "day"
+    },
+    {
+      "id": 86,
+      "date_text": "Oct. 17–18, 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "Putin travels to Beijing for the Belt and Road forum, his first known foreign trip since the ICC's March 2023 arrest warrant; Russia's parliament votes to revoke ratification of the Comprehensive Nuclear Test Ban Treaty.",
+      "tags": [
+        "Diplomacy",
+        "Warfare Shift"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2023-10-17",
+      "date_end": "2023-10-18",
+      "date_precision": "day"
+    },
+    {
+      "id": 87,
+      "date_text": "November 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "Commander-in-Chief Zaluzhny publicly describes the war as having reached a \"stalemate\" following the failed summer counteroffensive — a characterization that sets up his replacement three months later.",
+      "tags": [
+        "Command/Org"
+      ],
+      "research_categories": [
+        "Organizational Priorities"
+      ],
+      "sources": [
+        "CFR"
+      ],
+      "date_start": "2023-11-01",
+      "date_end": "2023-11-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 88,
+      "date_text": "Nov. 7, 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "Russia formally withdraws from the Conventional Armed Forces in Europe (CFE) Treaty, which had limited categories of conventional forces across the continent.",
+      "tags": [
+        "Warfare Shift",
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2023-11-07",
+      "date_end": "2023-11-07",
+      "date_precision": "day"
+    },
+    {
+      "id": 89,
+      "date_text": "Through Nov. 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "The UN human rights office (OHCHR) records more than 10,000 confirmed Ukrainian civilian deaths and 18,500 wounded; the U.S. Department of Defense separately estimates some 40,000 Ukrainian civilian deaths.",
+      "tags": [
+        "Personnel/Force"
+      ],
+      "research_categories": [],
+      "sources": [
+        "Britannica"
+      ],
+      "date_start": "2022-02-24",
+      "date_end": "2023-11-30",
+      "date_precision": "range"
+    },
+    {
+      "id": 90,
+      "date_text": "December 25–26, 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "The Ropucha-class landing ship Novocherkassk is struck in port at Feodosia, Crimea, catches fire, and sinks at the pier — assessed by naval analyst H I Sutton as a likely write-off.      (H I Sutton (Covert Shores))",
+      "tags": [
+        "Naval"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [],
+      "date_start": "2023-12-25",
+      "date_end": "2023-12-26",
+      "date_precision": "day"
+    },
+    {
+      "id": 91,
+      "date_text": "December 2023",
+      "section": "2023: Tanks, Bakhmut, and a Stalled Counteroffensive",
+      "subsection": null,
+      "body": "The EU formally opens accession talks with Ukraine; separately, further U.S. aid stalls in Congress as cumulative U.S. military assistance approaches $50 billion.",
+      "tags": [
+        "Diplomacy",
+        "Foreign Aid"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "Britannica"
+      ],
+      "date_start": "2023-12-01",
+      "date_end": "2023-12-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 92,
+      "date_text": "Feb. 1, 2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "EU leaders unanimously approve a €50 billion, four-year \"Ukraine Facility\" support package (€17 billion in grants, €33 billion in loans).",
+      "tags": [
+        "Foreign Aid"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2024-02-01",
+      "date_end": "2024-02-01",
+      "date_precision": "day"
+    },
+    {
+      "id": 93,
+      "date_text": "Jan. 31 – Feb. 14, 2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "Ukraine's military intelligence (HUR) sinks two more Russian warships in quick succession using uncrewed surface vessels: the Tarantul-class corvette Ivanovets (Jan. 31, near Lake Donuzlav) and the Ropucha-class landing ship Caesar Kunikov (Feb. 14, off southern Crimea).      (H I Sutton (Covert Shores))",
+      "tags": [
+        "Warfare Shift",
+        "Naval"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [],
+      "date_start": "2024-01-31",
+      "date_end": "2024-02-14",
+      "date_precision": "day"
+    },
+    {
+      "id": 94,
+      "date_text": "Feb. 8, 2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "Zelensky replaces military commander Gen. Valery Zaluzhny — architect of the 2022 Kharkiv counteroffensive and overseer of Bakhmut's defense — with Gen. Oleksandr Syrsky amid strategic tensions over the stalled counteroffensive.",
+      "tags": [
+        "Warfare Shift",
+        "Command/Org"
+      ],
+      "research_categories": [
+        "Organizational Priorities"
+      ],
+      "sources": [
+        "CFR",
+        "Britannica"
+      ],
+      "date_start": "2024-02-08",
+      "date_end": "2024-02-08",
+      "date_precision": "day"
+    },
+    {
+      "id": 95,
+      "date_text": "Oct. 2023–Feb. 2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "Russia's capture of Avdiivka costs at least 13,000 Russian troops killed or wounded in the first two months alone; over the roughly five-month campaign, Western estimates put Russian losses near 17,000 killed and 30,000 wounded — exceeding the Soviet Union's decade-long losses in Afghanistan.",
+      "tags": [
+        "Personnel/Force"
+      ],
+      "research_categories": [],
+      "sources": [
+        "Britannica"
+      ],
+      "date_start": "2023-10-01",
+      "date_end": "2024-02-28",
+      "date_precision": "month-range"
+    },
+    {
+      "id": 96,
+      "date_text": "Feb. 17–18, 2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "Russia captures Avdiivka (Donetsk) — its most significant battlefield gain since Bakhmut — after Ukraine withdraws to avoid encirclement; the White House attributes the loss partly to delayed U.S. funding. ISW's Feb. 17 assessment identified Russia's mass use of glide bombs (Ukrainian officials cited up to 500 launched at Avdiivka in the final days) as enabling Russia's first instance of sustained close air support to advancing infantry in the war, made possible by temporary, localized Russian air superiority; ISW warned that dwindling Ukrainian air-defense missile stocks — which U.S. officials assessed could run out by March 2024 without further Western resupply — risked letting Russia replicate that air support elsewhere along the front.",
+      "tags": [
+        "Territory",
+        "Air Defense"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [
+        "CFR",
+        "Britannica",
+        "ISW"
+      ],
+      "date_start": "2024-02-17",
+      "date_end": "2024-02-18",
+      "date_precision": "day"
+    },
+    {
+      "id": 97,
+      "date_text": "Feb. 22, 2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "The UK launches a Defence Drone Strategy backed by £4.5 billion of investment, aiming to unify uncrewed-systems procurement across all three UK military services.      (UK Parliament (CDP-2025-0176))",
+      "tags": [
+        "Warfare Shift",
+        "Foreign Aid"
+      ],
+      "research_categories": [
+        "Acquisition/Test & Evaluation",
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [],
+      "date_start": "2024-02-22",
+      "date_end": "2024-02-22",
+      "date_precision": "day"
+    },
+    {
+      "id": 98,
+      "date_text": "February 2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "CNAS publishes \"Evolution Not Revolution,\" concluding that despite the war's dramatic drone volume, most Russian and Ukrainian drones remain human-piloted and locked in a fast, symmetric innovation-and-emulation cycle that prevents either side from gaining a decisive, lasting edge.",
+      "tags": [
+        "Warfare Shift"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [
+        "CNAS"
+      ],
+      "date_start": "2024-02-01",
+      "date_end": "2024-02-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 99,
+      "date_text": "Feb. 2024 (two-year mark)",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "Comparing equipment losses: Ukraine has lost nearly 3,000 armored vehicles including about 740 tanks (visually confirmed); Russia has lost more than 8,000 armored vehicles including about 2,700 tanks. Western intelligence separately estimates Russian military casualties had topped 320,000 — about 90 percent of Russia's pre-war mobilized force — including some 20,000 Wagner fighters killed and 40,000 wounded.",
+      "tags": [
+        "Personnel/Force"
+      ],
+      "research_categories": [],
+      "sources": [
+        "Britannica"
+      ],
+      "date_start": "2024-02-24",
+      "date_end": "2024-02-24",
+      "date_precision": "approx"
+    },
+    {
+      "id": 100,
+      "date_text": "March 4–5, 2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "Ukraine's HUR sinks the Russian patrol ship Sergey Kotov near the Kerch Bridge using uncrewed surface vessels — the same ship class that had itself been used to hunt Ukrainian USVs the previous year.      (H I Sutton (Covert Shores))",
+      "tags": [
+        "Naval"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [],
+      "date_start": "2024-03-04",
+      "date_end": "2024-03-05",
+      "date_precision": "day"
+    },
+    {
+      "id": 101,
+      "date_text": "March 7, 2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "Sweden formally becomes NATO's 32nd member, completing the Nordic accession process begun after the 2022 invasion.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2024-03-07",
+      "date_end": "2024-03-07",
+      "date_precision": "day"
+    },
+    {
+      "id": 102,
+      "date_text": "March 15–17, 2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "Russia holds its presidential election, including voting staged in the four annexed Ukrainian regions; Putin wins a fifth term with a reported 87 percent of the vote.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2024-03-15",
+      "date_end": "2024-03-17",
+      "date_precision": "day"
+    },
+    {
+      "id": 103,
+      "date_text": "April 2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "A long-stalled $60 billion U.S. military aid package finally passes Congress after months of delay had allowed Russian gains in the Donbas and renewed fighting near Kharkiv.",
+      "tags": [
+        "Foreign Aid"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "Britannica",
+        "CFR"
+      ],
+      "date_start": "2024-04-01",
+      "date_end": "2024-04-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 104,
+      "date_text": "2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "Ukraine formally dissolves its state defense conglomerate Ukroboronprom, replacing it with the Ukrainian Defense Industry (UDI) under a 31-year-old engineer, Herman Smetanin; Rheinmetall and UDI form a joint venture the same year to build manufacturing plants inside Ukraine for Fox armored transports and Lynx infantry fighting vehicles.",
+      "tags": [
+        "Command/Org",
+        "Industrial/Economic"
+      ],
+      "research_categories": [
+        "Organizational Priorities",
+        "Acquisition/Test & Evaluation"
+      ],
+      "sources": [
+        "Britannica"
+      ],
+      "date_start": "2024-01-01",
+      "date_end": "2024-12-31",
+      "date_precision": "year"
+    },
+    {
+      "id": 105,
+      "date_text": "May 2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "Russia launches a new offensive toward Kharkiv, making initial territorial gains before stalling against reinforced Ukrainian defenses.",
+      "tags": [
+        "Territory",
+        "Warfare Shift"
+      ],
+      "research_categories": [],
+      "sources": [
+        "CFR"
+      ],
+      "date_start": "2024-05-01",
+      "date_end": "2024-05-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 106,
+      "date_text": "May 19, 2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "The Karakurt-class missile corvette Tsiklon is destroyed in Sevastopol by Ukrainian missiles, likely ATACMS.      (H I Sutton (Covert Shores))",
+      "tags": [
+        "Naval",
+        "Foreign Aid"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [],
+      "date_start": "2024-05-19",
+      "date_end": "2024-05-19",
+      "date_precision": "day"
+    },
+    {
+      "id": 107,
+      "date_text": "June 13–16, 2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "The U.S. signs a bilateral security agreement with Ukraine; roughly 100 countries attend the Ukraine Peace Summit in Switzerland, producing a joint communiqué backed by 83 countries and organizations, though several major non-Western states decline to sign.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2024-06-13",
+      "date_end": "2024-06-16",
+      "date_precision": "day"
+    },
+    {
+      "id": 108,
+      "date_text": "June 25, 2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "The EU formally opens accession talks with Ukraine and Moldova; the ICC issues arrest warrants for former Russian defense minister Sergei Shoigu and Gen. Valery Gerasimov, bringing to six the number of senior Russian officials facing ICC warrants.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2024-06-25",
+      "date_end": "2024-06-25",
+      "date_precision": "day"
+    },
+    {
+      "id": 109,
+      "date_text": "July 9–11, 2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "The NATO summit in Washington produces new pledges of military and humanitarian aid and reaffirms Ukraine's path toward membership; the UK announces roughly £3 billion in annual support \"for as long as needed.\"",
+      "tags": [
+        "Foreign Aid",
+        "Diplomacy"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2024-07-09",
+      "date_end": "2024-07-11",
+      "date_precision": "day"
+    },
+    {
+      "id": 110,
+      "date_text": "Aug. 6, 2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "Ukraine launches the Kursk offensive, its first major cross-border ground incursion into Russian territory, eventually capturing roughly 1,250 square kilometers and prompting about 200,000 Russian civilians to flee. ISW's Aug. 6 assessment — filed the same day as the initial raids — noted Russian officials initially downplayed the incursion as a repelled \"raid\" even as Russia's own acting Kursk Oblast governor and multiple milbloggers contradicted that framing and warned fighting was ongoing in the border area, an early sign the true scale caught Russian authorities off guard.",
+      "tags": [
+        "Territory",
+        "Warfare Shift"
+      ],
+      "research_categories": [],
+      "sources": [
+        "CFR",
+        "Britannica",
+        "ISW"
+      ],
+      "date_start": "2024-08-06",
+      "date_end": "2024-08-06",
+      "date_precision": "day"
+    },
+    {
+      "id": 111,
+      "date_text": "Aug. 21, 2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "Ukraine's parliament ratifies the Rome Statute, paving the way for full ICC membership.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2024-08-21",
+      "date_end": "2024-08-21",
+      "date_precision": "day"
+    },
+    {
+      "id": 112,
+      "date_text": "Aug. 2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "Russia establishes the Rubikon Center for Advanced Unmanned Systems, an elite unit tasked with pioneering more sophisticated drone-strike techniques and targeting Ukrainian drone crews, EW assets, and logistics.",
+      "tags": [
+        "Warfare Shift",
+        "Command/Org"
+      ],
+      "research_categories": [
+        "Organizational Priorities",
+        "Fire/Maneuver"
+      ],
+      "sources": [
+        "ISW"
+      ],
+      "date_start": "2024-08-01",
+      "date_end": "2024-08-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 113,
+      "date_text": "Aug. 29, 2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "Poland is named the lead nation overseeing the armor-and-maneuver capability coalition within the Ukraine Defense Contact Group framework.",
+      "tags": [
+        "Command/Org"
+      ],
+      "research_categories": [
+        "Organizational Priorities"
+      ],
+      "sources": [
+        "DOD"
+      ],
+      "date_start": "2024-08-29",
+      "date_end": "2024-08-29",
+      "date_precision": "day"
+    },
+    {
+      "id": 114,
+      "date_text": "Sept. 2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "Russia significantly ramps up its Shahed one-way attack drone campaign, increasing launch volume from roughly 200 per week to more than 1,000 per week by March 2025.      (CSIS (Drone Saturation: Russia's Shahed Campaign))",
+      "tags": [
+        "Warfare Shift"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [],
+      "date_start": "2024-09-01",
+      "date_end": "2024-09-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 115,
+      "date_text": "Sept. 2022 – 2024 (cumulative)",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "CSIS finds Russia launched 11,466 missiles at Ukraine over this period, with roughly 83.5 percent intercepted on average — an average of 23.2 missiles launched daily across 36 identified missile models, with August 2024 the single most active month (1,110 missiles).      (CSIS (Assessing Russian Firepower Strikes in Ukraine))",
+      "tags": [
+        "Warfare Shift"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [],
+      "date_start": "2022-09-01",
+      "date_end": "2024-12-31",
+      "date_precision": "range"
+    },
+    {
+      "id": 116,
+      "date_text": "Sept. 28, 2022 – Dec. 28, 2024 (cumulative)",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "CSIS calculates Russia launched more than 19,000 missiles, including over 14,700 one-way attack drones, over this span; Shahed drones (2,000 km range, 40 kg payload, an estimated $20,000–$80,000 unit cost) hit their targets less than 10 percent of the time, versus 89.9 percent target-reach for Iskander-M missiles. CSIS estimates precision strikes using Shahed-type drones cost Russia roughly $350,000 per target struck, versus about $1 million per target for the pricier but far more reliable Kh-22.      (CSIS (Calculating the Cost-Effectiveness of Russia's Drone Strikes))",
+      "tags": [
+        "Warfare Shift"
+      ],
+      "research_categories": [
+        "Fire/Maneuver",
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [],
+      "date_start": "2022-09-28",
+      "date_end": "2024-12-28",
+      "date_precision": "range"
+    },
+    {
+      "id": 117,
+      "date_text": "Sept. 26, 2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "Biden announces a \"surge\" of nearly $8 billion in additional military aid and new long-range munitions during a White House meeting with Zelensky.",
+      "tags": [
+        "Foreign Aid"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2024-09-26",
+      "date_end": "2024-09-26",
+      "date_precision": "day"
+    },
+    {
+      "id": 118,
+      "date_text": "Oct. 2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "Russia suffers an estimated 1,500 troops killed or wounded per day, described as the deadliest month of the war to that point.",
+      "tags": [
+        "Personnel/Force"
+      ],
+      "research_categories": [],
+      "sources": [
+        "Britannica"
+      ],
+      "date_start": "2024-10-01",
+      "date_end": "2024-10-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 119,
+      "date_text": "Autumn 2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "Russia deploys roughly 10,000–11,000 North Korean troops to help repel the Kursk incursion — the first confirmed direct involvement of North Korean forces in the war — arriving in Russian-provided uniforms and equipment and deepening Moscow-Pyongyang military cooperation.",
+      "tags": [
+        "Warfare Shift",
+        "Foreign Aid",
+        "Personnel/Force"
+      ],
+      "research_categories": [
+        "Expeditionary Forces/Logistics"
+      ],
+      "sources": [
+        "DOD",
+        "CFR",
+        "Britannica"
+      ],
+      "date_start": "2024-10-01",
+      "date_end": "2024-10-01",
+      "date_precision": "season"
+    },
+    {
+      "id": 120,
+      "date_text": "Nov. 8, 2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "Austin holds the 56th annual U.S.-South Korea Security Consultative Meeting, part of the diplomatic backdrop to North Korea's Kursk deployment.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "DOD"
+      ],
+      "date_start": "2024-11-08",
+      "date_end": "2024-11-08",
+      "date_precision": "day"
+    },
+    {
+      "id": 121,
+      "date_text": "Fall–Winter 2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "Russia's forces push deeper into eastern and southeastern Ukraine, seizing more than 4,000 square kilometers of Ukrainian territory while reclaiming roughly half of the Kursk ground Ukraine had taken.",
+      "tags": [
+        "Territory"
+      ],
+      "research_categories": [],
+      "sources": [
+        "CFR"
+      ],
+      "date_start": "2024-09-01",
+      "date_end": "2024-12-31",
+      "date_precision": "month-range"
+    },
+    {
+      "id": 122,
+      "date_text": "Nov. 2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "Outgoing President Biden lifts restrictions on Ukraine's use of U.S.-supplied ATACMS missiles against targets inside Russia; Russia responds by firing a new intermediate-range ballistic missile at Dnipro and modifying its nuclear doctrine. (Note: the DOD timeline confirms the Dnipro missile strike but does not itself document the ATACMS policy change — that detail rests on CFR and Britannica only.)",
+      "tags": [
+        "Foreign Aid",
+        "Warfare Shift"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [
+        "CFR",
+        "Britannica"
+      ],
+      "date_start": "2024-11-01",
+      "date_end": "2024-11-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 123,
+      "date_text": "Dec. 5, 2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "Donald Trump wins the U.S. presidential election, having campaigned on ending the war quickly — setting up the policy shift that follows in 2025.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2024-12-05",
+      "date_end": "2024-12-05",
+      "date_precision": "day"
+    },
+    {
+      "id": 124,
+      "date_text": "Dec. 7, 2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "A $988 million USAI package includes unmanned aerial systems and rocket munitions.",
+      "tags": [
+        "Foreign Aid"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "DOD"
+      ],
+      "date_start": "2024-12-07",
+      "date_end": "2024-12-07",
+      "date_precision": "day"
+    },
+    {
+      "id": 125,
+      "date_text": "Dec. 30, 2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "The outgoing Biden administration announces a combined package of roughly $2.5 billion (drawdown plus USAI funds) as it accelerates disbursing remaining authorized aid before the change of administration.",
+      "tags": [
+        "Foreign Aid"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "DOD"
+      ],
+      "date_start": "2024-12-30",
+      "date_end": "2024-12-30",
+      "date_precision": "day"
+    },
+    {
+      "id": 126,
+      "date_text": "Dec. 31, 2024",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "Ukrainian HUR Magura uncrewed surface vessels, armed with AA-11 Archer air-to-air missiles, down two Russian helicopters and damage a third — described by naval analyst H I Sutton as \"the first time in history that a USV has shot down an aircraft in combat.\"      (H I Sutton (Covert Shores))",
+      "tags": [
+        "Warfare Shift",
+        "Naval"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [],
+      "date_start": "2024-12-31",
+      "date_end": "2024-12-31",
+      "date_precision": "day"
+    },
+    {
+      "id": 127,
+      "date_text": "2024 (full year)",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "Ukraine's UK-supplied drone deliveries rise toward a target of 10,000 for the year, en route to a stated 100,000 target for 2025.      (UK Parliament (CDP-2025-0176))",
+      "tags": [
+        "Warfare Shift",
+        "Foreign Aid"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [],
+      "date_start": "2024-01-01",
+      "date_end": "2024-12-31",
+      "date_precision": "year"
+    },
+    {
+      "id": 128,
+      "date_text": "2024–2025",
+      "section": "2024: Avdiivka Falls, Ukraine Strikes Kursk",
+      "subsection": null,
+      "body": "The UK establishes a Defence Uncrewed Systems Design Authority (2024) to centralize research, testing, policy, and industry relationships for drone systems, followed by a new Drone Centre announced in the 2025 Strategic Defence Review to \"accelerate exploitation\" of small uncrewed systems across all three UK services.      (UK Parliament (CDP-2025-0176))",
+      "tags": [
+        "Command/Org"
+      ],
+      "research_categories": [
+        "Organizational Priorities",
+        "Acquisition/Test & Evaluation"
+      ],
+      "sources": [],
+      "date_start": "2024-01-01",
+      "date_end": "2024-12-31",
+      "date_precision": "year"
+    },
+    {
+      "id": 129,
+      "date_text": "Jan. 16, 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "The UK and Ukraine sign a \"100 Year Partnership\" agreement covering defense, science, and maritime-security cooperation, during Keir Starmer's first official visit to Kyiv as prime minister.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2025-01-16",
+      "date_end": "2025-01-16",
+      "date_precision": "day"
+    },
+    {
+      "id": 130,
+      "date_text": "Jan. 20, 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "Donald Trump takes office having vowed to end the war; Kyiv voices concern over the prospect of U.S.-Russia talks that exclude Ukraine and about possible freezes in U.S. aid.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "CFR",
+        "Britannica"
+      ],
+      "date_start": "2025-01-20",
+      "date_end": "2025-01-20",
+      "date_precision": "day"
+    },
+    {
+      "id": 131,
+      "date_text": "Dec. 2024–Jan. 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "Russia suffers an estimated 100,000 troops killed or wounded over this two-month span — the bloodiest stretch of the war to that point — while gaining only marginal ground in the Donbas.",
+      "tags": [
+        "Warfare Shift",
+        "Territory"
+      ],
+      "research_categories": [],
+      "sources": [
+        "Britannica"
+      ],
+      "date_start": "2024-12-01",
+      "date_end": "2025-01-28",
+      "date_precision": "month-range"
+    },
+    {
+      "id": 132,
+      "date_text": "Feb. 12–18, 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "Trump and Putin hold a first direct call agreeing to begin peace negotiations; the U.S. defense secretary tells NATO allies that Ukrainian NATO membership is unlikely to be part of any settlement; U.S. and Russian delegations meet in Riyadh and agree to explore ending the war, without Ukraine at the table.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2025-02-12",
+      "date_end": "2025-02-18",
+      "date_precision": "day"
+    },
+    {
+      "id": 133,
+      "date_text": "Feb. 19, 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "CSIS's \"Calculating the Cost-Effectiveness of Russia's Drone Strikes\" describes Shahed one-way attack drones as operating on a deliberate logic of attrition against Ukrainian air defenses, noting a Patriot interceptor (PAC-3) costs over $3 million while a NASAM interceptor runs slightly over $1 million — a steep cost asymmetry against a roughly $35,000 drone.      (CSIS (Russian Firepower Strike Tracker))",
+      "tags": [
+        "Warfare Shift"
+      ],
+      "research_categories": [
+        "Fire/Maneuver",
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [],
+      "date_start": "2025-02-19",
+      "date_end": "2025-02-19",
+      "date_precision": "day"
+    },
+    {
+      "id": 134,
+      "date_text": "Feb. 24, 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "CSIS's \"Breaking Down Russian Missile Salvos\" finds ballistic missiles remain the deadliest munition type despite the drone-volume increase, and recommends Ukraine bolster high-speed defenses; the same analysis puts the overall Sept. 2022–Oct. 2024 intercept rate at 84.1 percent, with Shahed-136/131 drones accounting for over 65 percent of all launches.      (CSIS (Russian Firepower Strike Tracker))",
+      "tags": [
+        "Warfare Shift"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [],
+      "date_start": "2025-02-24",
+      "date_end": "2025-02-24",
+      "date_precision": "day"
+    },
+    {
+      "id": 135,
+      "date_text": "Jan.–Feb. 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "Ukraine launches a second incursion into Kursk with limited success; North Korean troops are withdrawn from the front in February after suffering heavy casualties.",
+      "tags": [
+        "Territory",
+        "Warfare Shift"
+      ],
+      "research_categories": [],
+      "sources": [
+        "CFR"
+      ],
+      "date_start": "2025-01-01",
+      "date_end": "2025-02-28",
+      "date_precision": "month-range"
+    },
+    {
+      "id": 136,
+      "date_text": "Feb. 28, 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "A televised Oval Office meeting between Trump, Vice President Vance, and Zelensky turns openly confrontational, appearing to bring the U.S.–Ukraine relationship to the brink of rupture.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "Britannica"
+      ],
+      "date_start": "2025-02-28",
+      "date_end": "2025-02-28",
+      "date_precision": "day"
+    },
+    {
+      "id": 137,
+      "date_text": "Early March 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "Within a week of the Oval Office clash, the Trump administration suspends U.S. military aid and intelligence-sharing with Kyiv.",
+      "tags": [
+        "Foreign Aid",
+        "Diplomacy"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "Britannica"
+      ],
+      "date_start": "2025-03-05",
+      "date_end": "2025-03-05",
+      "date_precision": "approx"
+    },
+    {
+      "id": 138,
+      "date_text": "March 2, 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "Following a London summit of 18 world leaders convened by Keir Starmer, the UK announces a \"coalition of the willing\" — a grouping of countries prepared to help guarantee Ukraine's security once a peace deal is reached.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2025-03-02",
+      "date_end": "2025-03-02",
+      "date_precision": "day"
+    },
+    {
+      "id": 139,
+      "date_text": "March 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "Trump proposes a 30-day ceasefire; Zelensky accepts, but Putin declines, seeking to exploit the pause in U.S. support on the battlefield. Following talks in Saudi Arabia, the U.S. and Ukraine jointly back the proposal and the U.S. restores intelligence-sharing.",
+      "tags": [
+        "Diplomacy",
+        "Foreign Aid"
+      ],
+      "research_categories": [],
+      "sources": [
+        "Britannica",
+        "UK Parliament"
+      ],
+      "date_start": "2025-03-01",
+      "date_end": "2025-03-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 140,
+      "date_text": "March 24, 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "U.S. and Russian negotiators hold 12 hours of talks in Riyadh, reaching a partial Black Sea ceasefire agreement, though the Kremlin conditions it on sanctions relief and reconnecting Russian banks to SWIFT.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2025-03-24",
+      "date_end": "2025-03-24",
+      "date_precision": "day"
+    },
+    {
+      "id": 141,
+      "date_text": "Early 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "During Russia's counteroffensive to retake Kursk Oblast, the Rubikon Center pioneers techniques for dynamically striking Ukrainian logistics at operational depth — the first large-scale application of \"partial battlefield air interdiction.\" Ukraine also begins transitioning its military command structure to a corps system to improve command-and-control and operational planning.",
+      "tags": [
+        "Warfare Shift",
+        "Territory",
+        "Command/Org"
+      ],
+      "research_categories": [
+        "Organizational Priorities",
+        "Centralization of C2",
+        "Fire/Maneuver"
+      ],
+      "sources": [
+        "ISW"
+      ],
+      "date_start": "2025-02-01",
+      "date_end": "2025-02-01",
+      "date_precision": "approx"
+    },
+    {
+      "id": 142,
+      "date_text": "April 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "Exploiting the halt in U.S. aid, Russian and North Korean forces drive Ukrainian troops out of Kursk, ending Ukraine's roughly eight-month occupation of Russian territory.",
+      "tags": [
+        "Territory",
+        "Warfare Shift"
+      ],
+      "research_categories": [],
+      "sources": [
+        "Britannica"
+      ],
+      "date_start": "2025-04-01",
+      "date_end": "2025-04-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 143,
+      "date_text": "May 2, 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "CSIS publishes \"Lessons from the Ukraine Conflict,\" citing NATO's finding that Ukrainian drones have destroyed more than 65 percent of Russian tanks.      (CSIS (Lessons from the Ukraine Conflict))",
+      "tags": [
+        "Warfare Shift"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [],
+      "date_start": "2025-05-02",
+      "date_end": "2025-05-02",
+      "date_precision": "day"
+    },
+    {
+      "id": 144,
+      "date_text": "May 2–3, 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "Ukraine's HUR shoots down two more Russian Su-30 Flanker fighters using air-to-air missiles launched from uncrewed surface vessels (a Magura V7 on May 2, likely a Sea Wolf USV on May 3) — a repeat and expansion of the USV-as-air-defense tactic first demonstrated in December 2024.      (H I Sutton (Covert Shores))",
+      "tags": [
+        "Warfare Shift",
+        "Naval"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [],
+      "date_start": "2025-05-02",
+      "date_end": "2025-05-03",
+      "date_precision": "day"
+    },
+    {
+      "id": 145,
+      "date_text": "May 6, 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "CSIS's \"Operational Fires in the Age of Punishment\" argues Russia's decoupling of firepower from maneuver signals a shift toward punitive, algorithmic warfare; the same analysis finds no statistically significant relationship between missile-salvo size and increased Russian battlefield casualties three days later, despite averaging 10.64 cruise/ballistic missiles and 39.29 Shaheds launched per day since Feb. 24, 2022.      (CSIS (Russian Firepower Strike Tracker))",
+      "tags": [
+        "Warfare Shift"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [],
+      "date_start": "2025-05-06",
+      "date_end": "2025-05-06",
+      "date_precision": "day"
+    },
+    {
+      "id": 146,
+      "date_text": "May 13, 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "CSIS formally documents the scale of Russia's Shahed campaign: weekly launch volumes rising from roughly 200 (Sept. 2024) to over 1,000 by March 2025, with per-drone cost estimated at $20,000–$50,000 against a SAM-interceptor cost of several hundred thousand dollars — an asymmetry Russia tolerates even while losing more than 75 percent of drones launched.      (CSIS (Drone Saturation: Russia's Shahed Campaign))",
+      "tags": [
+        "Warfare Shift"
+      ],
+      "research_categories": [
+        "Fire/Maneuver",
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [],
+      "date_start": "2025-05-13",
+      "date_end": "2025-05-13",
+      "date_precision": "day"
+    },
+    {
+      "id": 147,
+      "date_text": "May 16–June 2, 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "Russian and Ukrainian delegations hold direct talks in Istanbul — the first since March 2022 — followed by a second round on June 2; both produce prisoner exchanges but no ceasefire breakthrough.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament",
+        "CFR"
+      ],
+      "date_start": "2025-05-16",
+      "date_end": "2025-06-02",
+      "date_precision": "day"
+    },
+    {
+      "id": 148,
+      "date_text": "June 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "Trump proposes readmitting Russia to the G7.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "Britannica"
+      ],
+      "date_start": "2025-06-01",
+      "date_end": "2025-06-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 149,
+      "date_text": "June 4, 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "Trump and Putin speak by phone; Putin says Russia will respond to Ukraine's large-scale drone strike on Russian airbases days earlier — an attack widely seen as a major escalation in Ukraine's deep-strike drone campaign.",
+      "tags": [
+        "Warfare Shift",
+        "Diplomacy"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2025-06-04",
+      "date_end": "2025-06-04",
+      "date_precision": "day"
+    },
+    {
+      "id": 150,
+      "date_text": "2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "Ukraine's Operation Spiderweb sees covert teams conceal more than 100 small drones in wooden cabins mounted on the backs of semi-trucks, driven by unsuspecting Russian truckers within striking distance of five Russian airbases; the drones then launch and destroy scores of nuclear-capable bombers on the tarmac.",
+      "tags": [
+        "Warfare Shift"
+      ],
+      "research_categories": [
+        "Fire/Maneuver",
+        "Signature Management"
+      ],
+      "sources": [
+        "Irregular Warfare Center"
+      ],
+      "date_start": "2025-01-01",
+      "date_end": "2025-12-31",
+      "date_precision": "year"
+    },
+    {
+      "id": 151,
+      "date_text": "Dec. 2024–July 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "The UK tests and fields new counter-drone directed-energy weapons: a radiowave weapon against drone swarms tested in December 2024, and the British Army's first vehicle-mounted high-energy laser weapon system tested the same month; by July 2025 the government commits nearly £1 billion in further directed-energy-weapons investment.      (UK Parliament (CDP-2025-0176))",
+      "tags": [
+        "EW/Counter-Drone"
+      ],
+      "research_categories": [
+        "Acquisition/Test & Evaluation",
+        "Signature Management",
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [],
+      "date_start": "2024-12-01",
+      "date_end": "2025-07-28",
+      "date_precision": "month-range"
+    },
+    {
+      "id": 152,
+      "date_text": "July 31, 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "CSIS's \"The New Salvo War\" documents that Russia's aerial campaign has normalized massed drone-and-missile salvos exceeding 700 munitions per strike, occurring only days apart; salvo size has tripled since 2022 (from roughly 100 to nearly 300 weapons per wave) and hit rates have risen from under 10 percent to nearly 20 percent.      (CSIS (Russian Firepower Strike Tracker))",
+      "tags": [
+        "Warfare Shift"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [],
+      "date_start": "2025-07-31",
+      "date_end": "2025-07-31",
+      "date_precision": "day"
+    },
+    {
+      "id": 153,
+      "date_text": "August 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "Trump holds a joint summit with Putin in Alaska — the first such meeting since Russia's international isolation began — without producing a durable ceasefire despite Trump's threats of \"consequences.\"",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "Britannica",
+        "CFR"
+      ],
+      "date_start": "2025-08-01",
+      "date_end": "2025-08-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 154,
+      "date_text": "2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "CSIS catalogs a widening field of counter-drone technology in response to Shahed saturation: the Skynex modular short-range air-defense system, upgraded Gepard rounds, the UK's DragonFire laser, the FrankenSAM program pairing older Western missiles with Soviet-era radars, tens of thousands of Ukrainian acoustic sensors feeding the Delta system, and new laser programs from RTX, BlueHalo, Lockheed Martin, Turkey's Aselsan, and Germany's Rheinmetall (a tested 50-kW laser).      (CSIS (Drone Saturation; Calculating the Cost-Effectiveness of Russia's Drone Strikes))",
+      "tags": [
+        "EW/Counter-Drone"
+      ],
+      "research_categories": [
+        "Acquisition/Test & Evaluation",
+        "Fire/Maneuver"
+      ],
+      "sources": [],
+      "date_start": "2025-01-01",
+      "date_end": "2025-12-31",
+      "date_precision": "year"
+    },
+    {
+      "id": 155,
+      "date_text": "No later than Aug. 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "Ukraine launches a sustained campaign specifically to kill Rubikon drone operators, which significantly degrades Rubikon's effectiveness by early 2026; Russia's parallel push to expand its new Unmanned Systems Force by recruiting university students suggests a shortage of the specialized personnel Rubikon was originally built around.",
+      "tags": [
+        "Warfare Shift",
+        "Command/Org"
+      ],
+      "research_categories": [
+        "Organizational Priorities",
+        "Fire/Maneuver"
+      ],
+      "sources": [
+        "ISW"
+      ],
+      "date_start": "2025-08-31",
+      "date_end": "2025-08-31",
+      "date_precision": "approx"
+    },
+    {
+      "id": 156,
+      "date_text": "Aug. 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "Ukraine's Ministry of Defense makes the Delta battlefield-management system mandatory across all units. Separately, Ukraine's UK-supplied drone deliveries exceed 70,000 (en route to a 100,000 year-end target); the UK invests £350 million in Ukraine drone technology for 2025/26 and co-leads a \"Drone Capability Coalition\" with Latvia. The UK Ministry of Defence states \"drones now kill more people than traditional artillery\" in Ukraine.      (ISW; UK Parliament (CDP-2025-0176))",
+      "tags": [
+        "Warfare Shift",
+        "Foreign Aid",
+        "Command/Org"
+      ],
+      "research_categories": [
+        "Centralization of C2",
+        "Fire/Maneuver",
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [],
+      "date_start": "2025-08-01",
+      "date_end": "2025-08-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 157,
+      "date_text": "2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "The UK's Strategic Defence Review explicitly incorporates lessons from Ukraine's drone war, calling for uncrewed and autonomous systems to generate \"mass and lethality\" as part of a \"high-low\" mix of platforms.",
+      "tags": [
+        "Warfare Shift",
+        "Foreign Aid"
+      ],
+      "research_categories": [
+        "Acquisition/Test & Evaluation"
+      ],
+      "sources": [
+        "Carnegie"
+      ],
+      "date_start": "2025-01-01",
+      "date_end": "2025-12-31",
+      "date_precision": "year"
+    },
+    {
+      "id": 158,
+      "date_text": "2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "The UK announces a new partnership with the International Defence Esports Games aimed at improving Armed Forces digital and cyber recruitment, alongside a new \"cyber direct entry\" pathway allowing recruits to join the military directly into cyber roles.      (UK Parliament (CDP-2025-0176))",
+      "tags": [
+        "Cyber/Info War"
+      ],
+      "research_categories": [
+        "Professional Military Education"
+      ],
+      "sources": [],
+      "date_start": "2025-01-01",
+      "date_end": "2025-12-31",
+      "date_precision": "year"
+    },
+    {
+      "id": 159,
+      "date_text": "September 10, 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "Russian drones cross into Poland, prompting NATO to describe the incident as a direct test of the alliance's air defenses; 19 drones are intercepted, at a cost far exceeding the drones' own value.",
+      "tags": [
+        "Warfare Shift",
+        "Diplomacy"
+      ],
+      "research_categories": [
+        "Fire/Maneuver",
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "CFR",
+        "Carnegie"
+      ],
+      "date_start": "2025-09-10",
+      "date_end": "2025-09-10",
+      "date_precision": "day"
+    },
+    {
+      "id": 160,
+      "date_text": "Sept. 4, 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "Following a Paris meeting of the \"coalition of the willing,\" France announces 26 member countries have agreed to send troops or other assistance to Ukraine after the war ends.",
+      "tags": [
+        "Diplomacy",
+        "Foreign Aid"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2025-09-04",
+      "date_end": "2025-09-04",
+      "date_precision": "day"
+    },
+    {
+      "id": 161,
+      "date_text": "Sept. 9, 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "CSIS's \"Russia's Massed Strikes\" finds Russia calibrates strike scale and tempo to the political environment — pulling back during active negotiations (August 2025 launches fell to about 3,300 aerial weapons, versus over 6,300 in July), then resuming large-scale operations once talks conclude.      (CSIS (Russian Firepower Strike Tracker))",
+      "tags": [
+        "Warfare Shift"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [],
+      "date_start": "2025-09-09",
+      "date_end": "2025-09-09",
+      "date_precision": "day"
+    },
+    {
+      "id": 162,
+      "date_text": "Throughout 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "Russia continues costly offensive operations, advancing only feet at a time around the Donbas \"fortress belt\" cities and the contested city of Pokrovsk; an analysis finds the pace of advance near Pokrovsk slower than the Allied advance at the First Battle of the Somme. Late in 2025, Ukraine begins a coherent SEAD/DEAD campaign against Russian air defenses, destroying 77 Russian SAM systems and 23 radar stations over the year (per Oryx), with a further 55 systems struck that winter per Ukraine's General Staff; separate Ukrainian OSINT tracking counts at least 492 strikes on air-defense infrastructure between June 2025 and March 2026.",
+      "tags": [
+        "Warfare Shift",
+        "Territory",
+        "Air Defense"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [
+        "Britannica",
+        "ISW"
+      ],
+      "date_start": "2025-01-01",
+      "date_end": "2025-12-31",
+      "date_precision": "year"
+    },
+    {
+      "id": 163,
+      "date_text": "2025 (full year)",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "Russia gains almost 5,000 square kilometers of Ukrainian territory over the year, bringing its total control to roughly 20 percent of Ukraine. Ukraine reportedly produces and deploys 4 million drones over the year; drone units, though only about 20 percent of Ukrainian personnel, are credited with delivering more than 80 percent of enemy casualties. Ukraine's domestic drone-manufacturer count has grown from seven in 2022 to at least 500, and annual production capacity has risen from about 5,000 units in 2022 to a projected 7 million in 2026; large companies make several thousand drones a day.",
+      "tags": [
+        "Territory",
+        "Warfare Shift",
+        "Industrial/Economic"
+      ],
+      "research_categories": [
+        "Fire/Maneuver",
+        "Acquisition/Test & Evaluation"
+      ],
+      "sources": [
+        "CFR",
+        "Irregular Warfare Center"
+      ],
+      "date_start": "2025-01-01",
+      "date_end": "2025-12-31",
+      "date_precision": "year"
+    },
+    {
+      "id": 164,
+      "date_text": "2025–2026",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "Ukraine's naval-drone campaign broadens from strictly military targets to Russia's \"shadow fleet\" of sanctions-evading oil tankers, with dozens of tanker strikes and limpet-mine incidents logged across the Black Sea, Mediterranean, and Baltic through mid-2026 — widening the naval war into an economic-warfare campaign against Russian oil exports, alongside a parallel European effort to intercept and board shadow-fleet vessels in the Baltic and English Channel.      (H I Sutton (Covert Shores))",
+      "tags": [
+        "Naval",
+        "Industrial/Economic"
+      ],
+      "research_categories": [
+        "Fire/Maneuver",
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [],
+      "date_start": "2025-01-01",
+      "date_end": "2025-12-31",
+      "date_precision": "year"
+    },
+    {
+      "id": 165,
+      "date_text": "2021–2025 (five-year total)",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "SIPRI identifies Ukraine as the world's single largest recipient of major arms in 2021–25, receiving 9.7 percent of all global arms imports (versus 0.1 percent in 2016–20); its top suppliers are the U.S. (41 percent), Germany (14 percent), and Poland (9.4 percent), with at least 36 states supplying major arms since 2022. Nearly a quarter of Germany's total global arms exports (24 percent) in this period consisted of aid to Ukraine.      (SIPRI (Trends in International Arms Transfers, 2025); CFR)",
+      "tags": [
+        "Aid"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [],
+      "date_start": "2021-01-01",
+      "date_end": "2021-12-31",
+      "date_precision": "year"
+    },
+    {
+      "id": 166,
+      "date_text": "2025 (full year)",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "SIPRI finds arms transfers to Ukraine in 2025 were substantially lower than in 2023 or 2024, largely reflecting reduced U.S. military aid; European states, Australia, and Canada increase their own transfers, and at least 25 states agree to purchase U.S.-made arms for onward transfer to Ukraine.      (SIPRI (Trends in International Arms Transfers, 2025))",
+      "tags": [
+        "Aid"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [],
+      "date_start": "2025-01-01",
+      "date_end": "2025-12-31",
+      "date_precision": "year"
+    },
+    {
+      "id": 167,
+      "date_text": "2023–2024",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "Russia's economy grows despite sanctions, fueled by deficit-funded government spending and ruble devaluation; by 2024 Russia's military spending reportedly reaches up to 6 percent of GDP, drawing IMF comparisons to Soviet-era production/consumption imbalances.",
+      "tags": [
+        "Industrial/Economic"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "Britannica"
+      ],
+      "date_start": "2023-01-01",
+      "date_end": "2023-12-31",
+      "date_precision": "year"
+    },
+    {
+      "id": 168,
+      "date_text": "Late 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "The EU agrees a roughly $106 billion loan package for Ukraine, later temporarily blocked by Hungary before being unblocked and disbursed.",
+      "tags": [
+        "Aid"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "CFR"
+      ],
+      "date_start": "2025-11-01",
+      "date_end": "2025-11-01",
+      "date_precision": "approx"
+    },
+    {
+      "id": 169,
+      "date_text": "Nov. 14, 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "CSIS's \"Russia's Intense Air Campaign in October\" finds October 2025 Russian launches (about 5,300 Shaheds, 74 cruise missiles, 148 ballistic missiles, including a single-day record of 26 Iskander-M/KN-23s) reflect a transition toward flexible, less-predictable strike scheduling driven by industrial capacity constraints, with correlation among the three strike systems falling to near zero from roughly 60 percent in 2024.      (CSIS (Russian Firepower Strike Tracker))",
+      "tags": [
+        "Warfare Shift"
+      ],
+      "research_categories": [
+        "Fire/Maneuver",
+        "Acquisition/Test & Evaluation"
+      ],
+      "sources": [],
+      "date_start": "2025-11-14",
+      "date_end": "2025-11-14",
+      "date_precision": "day"
+    },
+    {
+      "id": 170,
+      "date_text": "Nov. 19, 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "A U.S.-Russia-drafted 28-point peace plan is revealed, requiring Kyiv to cede territory and cap the size of its military — a notably harder line than earlier proposals; Ukraine and European allies push back on its terms.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2025-11-19",
+      "date_end": "2025-11-19",
+      "date_precision": "day"
+    },
+    {
+      "id": 171,
+      "date_text": "Nov. 23–25, 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "U.S., Ukrainian, and European officials meet in Geneva and adopt a revised version of the peace plan; territorial concessions and security guarantees remain contentious, and Putin says the plan \"could form the basis for future agreements\" while renewing threats to seize more territory by force.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2025-11-23",
+      "date_end": "2025-11-25",
+      "date_precision": "day"
+    },
+    {
+      "id": 172,
+      "date_text": "Dec. 14–16, 2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "Following talks in Berlin, Zelensky reportedly offers to drop Ukraine's NATO ambitions as a concession; European leaders and U.S. negotiators report \"significant progress\" on security guarantees; 35 countries and the EU sign a convention in The Hague establishing an International Claims Commission for Ukraine.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2025-12-14",
+      "date_end": "2025-12-16",
+      "date_precision": "day"
+    },
+    {
+      "id": 173,
+      "date_text": "2025",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "Russia opens its first drone-training school for children, \"Kindness and Sky,\" teaching drone assembly and piloting to youth. By this point, Ukraine's annual drone production capacity has risen from roughly 5,000 units in 2022 to a projected 7 million by 2026.",
+      "tags": [
+        "Warfare Shift",
+        "Industrial/Economic"
+      ],
+      "research_categories": [
+        "Acquisition/Test & Evaluation"
+      ],
+      "sources": [
+        "Irregular Warfare Center"
+      ],
+      "date_start": "2025-01-01",
+      "date_end": "2025-12-31",
+      "date_precision": "year"
+    },
+    {
+      "id": 174,
+      "date_text": "As of Sept. 30, 2025 (reported Jan. 28, 2026)",
+      "section": "2025: A Change in Washington and a Fragile Push for Peace",
+      "subsection": null,
+      "body": "GAO reports the State Department's MEASURE contract had helped it oversee $6.1 billion of Ukraine-related supplemental appropriations ($4.3 billion from the first four supplementals, $1.8 billion from a fifth), though State has used only some of the contract's output for oversight/budgeting decisions, citing wartime data-access challenges.",
+      "tags": [
+        "Aid"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "GAO-26-107860"
+      ],
+      "date_start": "2025-09-30",
+      "date_end": "2025-09-30",
+      "date_precision": "approx"
+    },
+    {
+      "id": 175,
+      "date_text": "Jan. 23, 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "Ukraine, Russia, and the U.S. hold trilateral talks in Abu Dhabi — the first three-way summit of its kind since the 2022 invasion; a further round on Feb. 4–5 ends without a breakthrough but produces a reciprocal exchange of 157 prisoners of war each.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2026-01-23",
+      "date_end": "2026-01-23",
+      "date_precision": "day"
+    },
+    {
+      "id": 176,
+      "date_text": "Feb. 1, 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "SpaceX abruptly cuts off Starlink satellite access for Russian forces operating in Ukraine, degrading Russian command-and-control and forcing Russian drone operators onto more conspicuous, easier-to-strike antennas; separately, Ukraine restricts Russian use of Starlink connectivity specifically on Russian long-range drones. ISW stresses this was a catalyst for, not the primary cause of, Ukraine's subsequent battlefield gains, noting Russian command-and-control was already degraded by the Kremlin's own throttling of the Telegram messaging app.",
+      "tags": [
+        "Warfare Shift",
+        "EW/Counter-Drone"
+      ],
+      "research_categories": [
+        "Signature Management",
+        "Fire/Maneuver"
+      ],
+      "sources": [
+        "ISW",
+        "Carnegie"
+      ],
+      "date_start": "2026-02-01",
+      "date_end": "2026-02-01",
+      "date_precision": "day"
+    },
+    {
+      "id": 177,
+      "date_text": "Feb. 23, 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "A joint Rapid Damage and Needs Assessment by Ukraine, the World Bank, the European Commission, and the UN estimates the total cost of Ukraine's reconstruction and recovery at roughly $588 billion over the following decade.",
+      "tags": [
+        "Foreign Aid"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2026-02-23",
+      "date_end": "2026-02-23",
+      "date_precision": "day"
+    },
+    {
+      "id": 178,
+      "date_text": "First four months of 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "Russia's daily rate of territorial advance collapses to about 2.9 square kilometers per day (4.6/day including infiltration-only gains), versus 9.76 square kilometers per day over the same months in 2025.",
+      "tags": [
+        "Territory",
+        "Warfare Shift"
+      ],
+      "research_categories": [],
+      "sources": [
+        "ISW"
+      ],
+      "date_start": "2026-01-01",
+      "date_end": "2026-04-30",
+      "date_precision": "month-range"
+    },
+    {
+      "id": 179,
+      "date_text": "Since December 2025",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "Russian monthly battlefield casualties begin outpacing Russian monthly recruitment for the first time in the war, with Western officials citing roughly 9,000 more Russian casualties than replacements in January 2026 alone; a Ukrainian unmanned-systems commander says Russia's recruitment rate has trailed its loss rate for four consecutive months through March 2026.",
+      "tags": [
+        "Warfare Shift",
+        "Personnel/Force"
+      ],
+      "research_categories": [],
+      "sources": [
+        "ISW"
+      ],
+      "date_start": "2025-12-01",
+      "date_end": "2026-03-31",
+      "date_precision": "range"
+    },
+    {
+      "id": 180,
+      "date_text": "Late Feb. 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "Ukraine liberates more territory than it loses over a two-week span for the first time since the summer 2023 counteroffensive; Russian forces suffer a net territorial loss of 116 square kilometers the following April.",
+      "tags": [
+        "Territory"
+      ],
+      "research_categories": [],
+      "sources": [
+        "ISW"
+      ],
+      "date_start": "2026-02-25",
+      "date_end": "2026-02-25",
+      "date_precision": "approx"
+    },
+    {
+      "id": 181,
+      "date_text": "Early 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "Britannica-cited estimates put cumulative Russian casualties at roughly 1.2 million (about 26,000 losses a month since Feb. 2022) and Ukrainian military casualties at perhaps 400,000; separately, Ukraine's commander-in-chief posts that Russia's new Unmanned Systems Force plans to reach 165,000 personnel by the end of 2026.",
+      "tags": [
+        "Personnel/Force",
+        "Command/Org"
+      ],
+      "research_categories": [
+        "Organizational Priorities"
+      ],
+      "sources": [
+        "Britannica",
+        "Irregular Warfare Center"
+      ],
+      "date_start": "2026-02-01",
+      "date_end": "2026-02-01",
+      "date_precision": "approx"
+    },
+    {
+      "id": 182,
+      "date_text": "March 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "Ukraine's military command claims a monthly record of 35,351 Russian casualties, 96 percent from tactical drone strikes; more than 7,000 Ukrainian long-range drones target Russian oil refineries, contributing to a reported 40 percent reduction in Russia's oil export capacity by month's end. On March 23, Russia launches 948 one-way attack drones against Ukraine in a single night. Russia's domestic Geran drone manufacturing reaches an estimated 5,000 units per month.",
+      "tags": [
+        "Warfare Shift",
+        "Air Defense",
+        "Industrial/Economic"
+      ],
+      "research_categories": [
+        "Fire/Maneuver",
+        "Acquisition/Test & Evaluation"
+      ],
+      "sources": [
+        "Irregular Warfare Center"
+      ],
+      "date_start": "2026-03-01",
+      "date_end": "2026-03-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 183,
+      "date_text": "March 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "Rheinmetall CEO Armin Papperger publicly dismisses the significance of Ukraine's drone innovation; the comment draws pushback from Ukrainian frontline officers, who attribute drone effectiveness to networked integration and continuous adaptation rather than technical sophistication.",
+      "tags": [
+        "Warfare Shift",
+        "Foreign Aid"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [
+        "Carnegie"
+      ],
+      "date_start": "2026-03-01",
+      "date_end": "2026-03-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 184,
+      "date_text": "March 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "SIPRI publishes its 2025 fact sheet showing global arms transfers rose 9.2 percent in 2021–25 versus 2016–20 — the largest five-year increase since 2011–15; European NATO members' combined arms imports grew 143 percent over the same comparison, with 58 percent of that volume supplied by the U.S.      (SIPRI (Trends in International Arms Transfers, 2025))",
+      "tags": [
+        "Aid"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [],
+      "date_start": "2026-03-01",
+      "date_end": "2026-03-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 185,
+      "date_text": "As of Mar. 31, 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "The U.S. Congress has made available $195 billion in total Ukraine-war-related spending since 2022; $164 billion comes from five legislative packages, the last passed in April 2024. The U.S. had disbursed 59 percent of that $195 billion; direct U.S. aid to the Ukrainian government is estimated at roughly $127 billion, with a large share of total spending flowing to U.S. defense manufacturers — a 2023 analysis found Ukraine-aid spending funding defense production in more than seventy U.S. cities.",
+      "tags": [
+        "Aid",
+        "Industrial/Economic"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "CFR"
+      ],
+      "date_start": "2026-03-31",
+      "date_end": "2026-03-31",
+      "date_precision": "approx"
+    },
+    {
+      "id": 186,
+      "date_text": "2025–early 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "Ukraine produces roughly 100,000 air-to-air interceptor drones in 2025 and reaches a production capacity of about 2,000 per day by March 2026; by April 2026, Ukrainian interceptors account for roughly 70 percent of downed Russian Gerans, at a unit cost of $1,000–3,000 versus far costlier traditional interceptors.",
+      "tags": [
+        "Warfare Shift",
+        "Air Defense"
+      ],
+      "research_categories": [
+        "Fire/Maneuver",
+        "Acquisition/Test & Evaluation"
+      ],
+      "sources": [
+        "Irregular Warfare Center"
+      ],
+      "date_start": "2025-01-01",
+      "date_end": "2025-12-31",
+      "date_precision": "year"
+    },
+    {
+      "id": 187,
+      "date_text": "Through 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "The proliferation of tethered fiber-optic FPV drones — effectively immune to jamming — makes movement to and from the front lines exceptionally hazardous; one Ukrainian marine brigade commander describes a Russian drone threat zone extending 20–25 km behind the line of contact, forcing exclusively drone-based resupply and stranding some troops at forward positions for over 100 days.",
+      "tags": [
+        "Warfare Shift",
+        "EW/Counter-Drone"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [
+        "Irregular Warfare Center"
+      ],
+      "date_start": "2022-02-24",
+      "date_end": "2026-12-31",
+      "date_precision": "range"
+    },
+    {
+      "id": 188,
+      "date_text": "April 21–23, 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "The European Council adopts the legislation underpinning a €90 billion EU support loan to Ukraine for 2026–27, with disbursements set to begin in the second quarter of 2026.",
+      "tags": [
+        "Foreign Aid"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2026-04-21",
+      "date_end": "2026-04-23",
+      "date_precision": "day"
+    },
+    {
+      "id": 189,
+      "date_text": "April 22, 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "The EU gives preliminary approval to a $106 billion loan for Ukraine after Hungary lifts its veto, following the restoration of Druzhba pipeline fuel deliveries damaged in a January 2026 Russian airstrike.",
+      "tags": [
+        "Foreign Aid",
+        "Diplomacy"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "CFR"
+      ],
+      "date_start": "2026-04-22",
+      "date_end": "2026-04-22",
+      "date_precision": "day"
+    },
+    {
+      "id": 190,
+      "date_text": "April 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "Ukraine's Presidential Office reports Ukrainian forces have regained a numerical edge in frontline strike drones (roughly 1.3 to 1 over Russia); Zelensky claims Ukrainian aerial and ground drones captured a Russian position without any human soldiers involved — a first for the war. Ukraine also announces plans to purchase 25,000 unmanned ground vehicles in the first half of 2026 alone, aiming to move up to 100 percent of frontline logistics to robotic solutions.",
+      "tags": [
+        "Warfare Shift"
+      ],
+      "research_categories": [
+        "Fire/Maneuver",
+        "Expeditionary Forces/Logistics"
+      ],
+      "sources": [
+        "ISW",
+        "Irregular Warfare Center"
+      ],
+      "date_start": "2026-04-01",
+      "date_end": "2026-04-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 191,
+      "date_text": "April 29–May 10, 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "Trump and Putin discuss a brief ceasefire around Russia's May 9 WWII victory holiday; Putin declares a two-day truce, but it only partially holds — Russia carries out drone strikes despite the announced pause, and frontline fighting continues.",
+      "tags": [
+        "Diplomacy",
+        "Warfare Shift"
+      ],
+      "research_categories": [],
+      "sources": [
+        "CFR"
+      ],
+      "date_start": "2026-04-29",
+      "date_end": "2026-05-10",
+      "date_precision": "day"
+    },
+    {
+      "id": 192,
+      "date_text": "May 12, 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "A draft U.S.-Ukraine defense deal is reported under which Kyiv would export military technology to the U.S. and partner with U.S. firms on drone manufacturing; Zelensky says 20 countries are negotiating drone-cooperation agreements with Ukraine.",
+      "tags": [
+        "Foreign Aid",
+        "Diplomacy",
+        "Industrial/Economic"
+      ],
+      "research_categories": [
+        "Acquisition/Test & Evaluation",
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "CFR"
+      ],
+      "date_start": "2026-05-12",
+      "date_end": "2026-05-12",
+      "date_precision": "day"
+    },
+    {
+      "id": 193,
+      "date_text": "May 14, 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "Russia launches over 1,560 drones and 56 missiles across Ukraine in a single day, killing at least 11 — one of the largest barrages of the war, immediately following the lapse of the prior ceasefire.",
+      "tags": [
+        "Warfare Shift"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [
+        "CFR"
+      ],
+      "date_start": "2026-05-14",
+      "date_end": "2026-05-14",
+      "date_precision": "day"
+    },
+    {
+      "id": 194,
+      "date_text": "May 24, 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "Russia strikes Kyiv and its surroundings with roughly 600 drones and 90 missiles, including a nuclear-capable Oreshnik hypersonic missile.",
+      "tags": [
+        "Warfare Shift"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [
+        "CFR"
+      ],
+      "date_start": "2026-05-24",
+      "date_end": "2026-05-24",
+      "date_precision": "day"
+    },
+    {
+      "id": 195,
+      "date_text": "March–May 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "Ukraine fields the U.S.-partnered Hornet strike drone (built with Swift Beat LLC) — a low-cost, fixed-wing, 150-kilometer-range one-way attack drone with AI-assisted navigation and Starlink connectivity — to interdict Russian logistics along key highways feeding occupied Crimea and the Donetsk front; Ukraine also tests a weather-balloon launch method extending its effective range to about 300 kilometers. Russian military bloggers assess Russia is unlikely to develop countermeasures within six to twelve months.",
+      "tags": [
+        "Warfare Shift",
+        "Foreign Aid"
+      ],
+      "research_categories": [
+        "Fire/Maneuver",
+        "Acquisition/Test & Evaluation"
+      ],
+      "sources": [
+        "ISW"
+      ],
+      "date_start": "2026-03-01",
+      "date_end": "2026-05-28",
+      "date_precision": "month-range"
+    },
+    {
+      "id": 196,
+      "date_text": "March–May 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "For the first time since the 2023 counteroffensive, Ukraine begins conducting tactical mechanized counterattacks — moving armored vehicles several kilometers behind previously observed Russian positions in the Oleksandrivka and Borova directions — made possible only after Ukraine achieved local, temporary \"tactical drone supremacy\" that suppressed the Russian reconnaissance-strike complex long enough for vehicles to move.",
+      "tags": [
+        "Warfare Shift",
+        "Territory"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [
+        "ISW"
+      ],
+      "date_start": "2026-03-01",
+      "date_end": "2026-05-28",
+      "date_precision": "month-range"
+    },
+    {
+      "id": 197,
+      "date_text": "June 4–5, 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "Zelensky publishes an open letter to Putin proposing a leaders' meeting to end the war; Ukraine and Russia exchange 185 prisoners of war each under a U.S.-brokered deal; Putin says he sees \"no reason\" to meet Zelensky at this time, telling the St. Petersburg International Economic Forum \"I do not yet see the point.\"",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "CFR",
+        "UK Parliament"
+      ],
+      "date_start": "2026-06-04",
+      "date_end": "2026-06-05",
+      "date_precision": "day"
+    },
+    {
+      "id": 198,
+      "date_text": "June 7, 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "France, Germany, and the UK issue a joint statement backing Zelensky's proposal for direct Ukraine-Russia ceasefire dialogue.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "CFR"
+      ],
+      "date_start": "2026-06-07",
+      "date_end": "2026-06-07",
+      "date_precision": "day"
+    },
+    {
+      "id": 199,
+      "date_text": "June 8–9, 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "The EU releases nearly $3.2 billion in support to Ukraine and proposes a 21st sanctions package targeting Russian banks, crypto networks, drone production, and oil traders.",
+      "tags": [
+        "Foreign Aid",
+        "Diplomacy"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "CFR"
+      ],
+      "date_start": "2026-06-08",
+      "date_end": "2026-06-09",
+      "date_precision": "day"
+    },
+    {
+      "id": 200,
+      "date_text": "June 12, 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "EU ambassadors agree to formally open Ukraine's EU membership talks.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "CFR"
+      ],
+      "date_start": "2026-06-12",
+      "date_end": "2026-06-12",
+      "date_precision": "day"
+    },
+    {
+      "id": 201,
+      "date_text": "June 15, 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "The EU and Ukraine open formal accession negotiations on the \"fundamentals\" cluster — the substantive start of membership talks covering rule of law and judicial reform.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2026-06-15",
+      "date_end": "2026-06-15",
+      "date_precision": "day"
+    },
+    {
+      "id": 202,
+      "date_text": "June 17, 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "G7 leaders, meeting in France, pledge to strengthen Ukraine's air defenses and tighten sanctions on Russia's oil and gas sectors.",
+      "tags": [
+        "Diplomacy",
+        "Foreign Aid"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2026-06-17",
+      "date_end": "2026-06-17",
+      "date_precision": "day"
+    },
+    {
+      "id": 203,
+      "date_text": "June 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "Fighting over the Black Sea and Sea of Azov continues: Ukrainian drones reportedly strike eleven Russian vessels in the Sea of Azov overnight, and a separate strike hits and sets fire to an oil terminal outside St. Petersburg.",
+      "tags": [
+        "Warfare Shift",
+        "Naval"
+      ],
+      "research_categories": [
+        "Fire/Maneuver"
+      ],
+      "sources": [
+        "CFR"
+      ],
+      "date_start": "2026-06-01",
+      "date_end": "2026-06-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 204,
+      "date_text": "June 25–30, 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "The EU begins disbursing a $101 billion loan to Ukraine in installments (an initial $3.4 billion, followed by $4.44 billion for drone technology), announced at a post-war recovery conference.",
+      "tags": [
+        "Foreign Aid"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "CFR"
+      ],
+      "date_start": "2026-06-25",
+      "date_end": "2026-06-30",
+      "date_precision": "day"
+    },
+    {
+      "id": 205,
+      "date_text": "July 6, 2026 (update date)",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "CFR reports combined European aid to Ukraine now exceeds cumulative U.S. aid, following a year (2025) in which the U.S. made no new aid commitments while European countries significantly increased theirs; 36 countries are identified as having made major arms transfers to Ukraine between 2022 and 2025. Under the Trump administration, the U.S. has authorized no new Ukraine aid legislation since April 2024, instead expanding the Prioritized Ukraine Requirements List (PURL) program, under which NATO allies pay the U.S. directly for weapons — including Patriot missiles — that are then transferred to Ukraine.",
+      "tags": [
+        "Aid"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "CFR"
+      ],
+      "date_start": "2026-07-06",
+      "date_end": "2026-07-06",
+      "date_precision": "day"
+    },
+    {
+      "id": 206,
+      "date_text": "June 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "The U.S. House of Representatives passes a bill authorizing new Ukraine aid and new Russia sanctions, with bipartisan but limited Republican support; the bill's fate in the Senate remains uncertain as of this update.",
+      "tags": [
+        "Aid"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "CFR"
+      ],
+      "date_start": "2026-06-01",
+      "date_end": "2026-06-01",
+      "date_precision": "month"
+    },
+    {
+      "id": 207,
+      "date_text": "July 8, 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "At the NATO summit in Ankara, Trump agrees to grant Ukraine a production license to build its own Patriot missile interceptors domestically.",
+      "tags": [
+        "Foreign Aid",
+        "Diplomacy"
+      ],
+      "research_categories": [
+        "Acquisition/Test & Evaluation"
+      ],
+      "sources": [
+        "CFR"
+      ],
+      "date_start": "2026-07-08",
+      "date_end": "2026-07-08",
+      "date_precision": "day"
+    },
+    {
+      "id": 208,
+      "date_text": "July 12, 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "Germany funds the production of 50,000 attack drones for Ukraine, among the largest known single Western drone purchases of the war; Ukraine's government undergoes its fourth major reorganization since the invasion.",
+      "tags": [
+        "Foreign Aid",
+        "Command/Org"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth",
+        "Organizational Priorities"
+      ],
+      "sources": [
+        "CFR"
+      ],
+      "date_start": "2026-07-12",
+      "date_end": "2026-07-12",
+      "date_precision": "day"
+    },
+    {
+      "id": 209,
+      "date_text": "July 6–27, 2026 (\"Operation Molochka\")",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "Ukraine's Unmanned Systems Forces launch a sustained, near-daily drone campaign against Russian fuel-logistics shipping in the Sea of Azov and Black Sea, striking on the order of 5–20 tankers, cargo ships, and tugboats per day through the end of the period covered here — by volume, the most intensive sustained maritime strike campaign of the war to date, though its longer-term effect on Russian fuel logistics is not yet resolved as of this writing.      (H I Sutton (Covert Shores))",
+      "tags": [
+        "Naval",
+        "Industrial/Economic"
+      ],
+      "research_categories": [
+        "Fire/Maneuver",
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [],
+      "date_start": "2026-07-06",
+      "date_end": "2026-07-27",
+      "date_precision": "day"
+    },
+    {
+      "id": 210,
+      "date_text": "July 13, 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "Ukraine and nine other countries announce a coalition, at a Paris security summit, to help protect Europe from ballistic-missile attack.",
+      "tags": [
+        "Diplomacy"
+      ],
+      "research_categories": [],
+      "sources": [
+        "CFR"
+      ],
+      "date_start": "2026-07-13",
+      "date_end": "2026-07-13",
+      "date_precision": "day"
+    },
+    {
+      "id": 211,
+      "date_text": "July 14, 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "As of this update, Russia occupies roughly 20 percent of Ukraine's territory; Ukraine has received approximately $188 billion in aid from the United States and $197 billion from the European Union since January 2022, with civilian casualties nearing 56,000 and roughly 9.6 million Ukrainians displaced.",
+      "tags": [
+        "Foreign Aid",
+        "Territory"
+      ],
+      "research_categories": [
+        "Budget/Spending/Wealth"
+      ],
+      "sources": [
+        "CFR"
+      ],
+      "date_start": "2026-07-14",
+      "date_end": "2026-07-14",
+      "date_precision": "day"
+    },
+    {
+      "id": 212,
+      "date_text": "July 15, 2026",
+      "section": "2026: Ceasefire Attempts, Continued Strikes, and Ukraine Regains the Initiative",
+      "subsection": null,
+      "body": "Ukraine and the EU launch an EU–Ukraine Defense Industrial Partnership to scale up joint weapons production, as part of the same government reshuffle that saw drone-warfare advocate Mykhailo Fedorov leave the defense ministry — Fedorov had been a prominent proponent of drone- and robot-centric warfare.",
+      "tags": [
+        "Foreign Aid",
+        "Warfare Shift",
+        "Command/Org"
+      ],
+      "research_categories": [
+        "Organizational Priorities",
+        "Civil-Military Relations",
+        "Acquisition/Test & Evaluation"
+      ],
+      "sources": [
+        "CFR"
+      ],
+      "date_start": "2026-07-15",
+      "date_end": "2026-07-15",
+      "date_precision": "day"
+    },
+    {
+      "id": 213,
+      "date_text": "Characterizing 2024–2026",
+      "section": "Undated / Cross-Cutting Characterizations",
+      "subsection": null,
+      "body": "Ukrainian units increasingly act as their own R&D and modification hubs — maintaining repair facilities, component stocks, and informal engineering cells — while Russian forces have moved away from large formations toward small assault groups of a handful of soldiers.",
+      "tags": [
+        "Command/Org",
+        "Warfare Shift"
+      ],
+      "research_categories": [
+        "Organizational Priorities",
+        "Fire/Maneuver"
+      ],
+      "sources": [
+        "Carnegie"
+      ],
+      "date_start": "2024-01-01",
+      "date_end": "2026-12-31",
+      "date_precision": "year-range"
+    },
+    {
+      "id": 214,
+      "date_text": "Throughout the war",
+      "section": "Undated / Cross-Cutting Characterizations",
+      "subsection": null,
+      "body": "Both sides use drone-strike footage for information-war purposes to shape domestic and international opinion; early Bayraktar TB2 \"kill counts,\" amplified by Turkish coverage, were likely inflated. Ukraine also for years declined to claim responsibility publicly for deep strikes into Russian territory before shifting toward open acknowledgment.",
+      "tags": [
+        "Cyber/Info War"
+      ],
+      "research_categories": [],
+      "sources": [
+        "CNAS"
+      ],
+      "date_start": null,
+      "date_end": null,
+      "date_precision": "undated"
+    },
+    {
+      "id": 215,
+      "date_text": "Sept. 13, 2022",
+      "section": "Undated / Cross-Cutting Characterizations",
+      "subsection": null,
+      "body": "A declassified U.S. State Department cable alleges Russia has covertly spent more than $300 million since 2014 attempting to influence politicians and officials in more than two dozen countries.",
+      "tags": [
+        "Cyber/Info War"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2022-09-13",
+      "date_end": "2022-09-13",
+      "date_precision": "day"
+    },
+    {
+      "id": 216,
+      "date_text": "March 18, 2022",
+      "section": "Undated / Cross-Cutting Characterizations",
+      "subsection": null,
+      "body": "UK media regulator Ofcom revokes Russia Today's UK broadcast license, finding it not a \"fit and proper\" or \"responsible broadcaster.\"",
+      "tags": [
+        "Cyber/Info War"
+      ],
+      "research_categories": [],
+      "sources": [
+        "UK Parliament"
+      ],
+      "date_start": "2022-03-18",
+      "date_end": "2022-03-18",
+      "date_precision": "day"
+    }
+  ]
+}
