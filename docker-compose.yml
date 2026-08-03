@@ -1,0 +1,33 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: sqlite+pysqlite:////data/timeline.db
+      INGEST_API_KEY: ${INGEST_API_KEY:-dev-ingest-key-change-me}
+      REVIEW_API_KEY: ${REVIEW_API_KEY:-dev-review-key-change-me}
+      APP_ENV: ${APP_ENV:-development}
+      CORS_ORIGINS: ${CORS_ORIGINS:-*}
+    volumes:
+      - timeline-data:/data
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request;urllib.request.urlopen('http://127.0.0.1:8000/api/v1/health')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+  # Swap to Postgres by uncommenting this and setting, on the api service:
+  #   DATABASE_URL: postgresql+psycopg://timeline:timeline@db:5432/timeline
+  # db:
+  #   image: postgres:16
+  #   environment:
+  #     POSTGRES_USER: timeline
+  #     POSTGRES_PASSWORD: timeline
+  #     POSTGRES_DB: timeline
+  #   volumes:
+  #     - pg-data:/var/lib/postgresql/data
+
+volumes:
+  timeline-data:
+  # pg-data:

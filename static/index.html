@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Russo-Ukrainian War Timeline</title>
+  <link rel="icon" href="/static/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300..700&display=swap" />
+  <!-- ?v= is a cache buster. The static mount sends ETag/Last-Modified but no
+       Cache-Control, so without this a browser can pair a stale index.html with
+       a fresh timeline.js and render nothing at all. Bump on every edit. -->
+  <link rel="stylesheet" href="/static/style.css?v=4" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Russo-Ukrainian War Timeline</h1>
+    <span class="topbar__meta" id="result-count">loading…</span>
+    <span class="spacer"></span>
+    <button type="button" id="theme-toggle" class="ghost" title="Toggle light/dark">◑</button>
+    <a href="/docs"><button type="button" class="ghost">API</button></a>
+    <a href="/review"><button type="button" class="ghost">Review queue</button></a>
+  </header>
+
+  <main class="wrap">
+    <section class="panel" aria-labelledby="filters-heading">
+      <h2 id="filters-heading" style="font-size:13px;color:var(--text-muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:12px;">Filters</h2>
+
+      <div class="filters">
+        <div class="field" style="flex:2 1 220px;">
+          <label for="f-q">Search text</label>
+          <input type="search" id="f-q" placeholder="e.g. Avdiivka, Patriot, ceasefire" />
+        </div>
+        <div class="field">
+          <label for="f-section">Section</label>
+          <select id="f-section"><option value="">All sections</option></select>
+        </div>
+        <div class="field">
+          <label for="f-rc">Research category</label>
+          <select id="f-rc"><option value="">All categories</option></select>
+        </div>
+        <div class="field">
+          <label for="f-source">Source</label>
+          <select id="f-source"><option value="">All sources</option></select>
+        </div>
+        <div class="field">
+          <label for="f-from">From</label>
+          <input type="date" id="f-from" />
+        </div>
+        <div class="field">
+          <label for="f-to">To</label>
+          <input type="date" id="f-to" />
+        </div>
+        <div class="field">
+          <label for="f-tagmode">Tag match</label>
+          <select id="f-tagmode">
+            <option value="any">Any selected</option>
+            <option value="all">All selected</option>
+          </select>
+        </div>
+        <button type="button" id="f-reset" class="ghost">Reset</button>
+      </div>
+
+      <div style="margin-top:14px;">
+        <label style="font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--text-muted);font-weight:600;">Tags</label>
+        <div class="chips" id="f-tags" style="margin-top:6px;"></div>
+      </div>
+
+      <div style="margin-top:14px;display:flex;flex-wrap:wrap;gap:16px;align-items:center;">
+        <label style="display:flex;align-items:center;gap:6px;font-size:13.5px;cursor:pointer;">
+          <input type="checkbox" id="f-exact" />
+          Only exact (day-precision) dates
+        </label>
+        <span class="spacer"></span>
+        <span class="muted" style="font-size:12.5px;">
+          Filters apply across every year. Published events only — pending scraper
+          submissions are not shown here.
+        </span>
+      </div>
+    </section>
+
+    <!-- Precision legend: explains the shape encoding used in each event's rail. -->
+    <section class="panel" style="margin-top:14px;">
+      <div style="display:flex;flex-wrap:wrap;gap:26px;align-items:center;font-size:13px;">
+        <strong style="font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--text-muted);">Date precision</strong>
+        <span style="display:flex;align-items:center;gap:8px;">
+          <span class="mark" style="width:44px;"><span class="mark__dot"></span><span class="mark__bar"></span></span>
+          Exact day
+        </span>
+        <span style="display:flex;align-items:center;gap:8px;" class="event--imprecise">
+          <span class="mark" style="width:44px;"><span class="mark__dot"></span><span class="mark__bar"></span></span>
+          <em>Approximate or a span</em> — hollow cap, hatched bar, italic date
+        </span>
+        <span style="display:flex;align-items:center;gap:8px;">
+          <span class="tag tag--span">spans 2022–2024</span>
+          Filed under its start year
+        </span>
+      </div>
+    </section>
+
+    <!-- One <details> per year, newest first. Built by renderYears(). The
+         placeholder is replaced on first render; if it is still visible, the
+         script never ran. -->
+    <div id="years" style="margin-top:14px;">
+      <div class="empty">Loading events…</div>
+    </div>
+  </main>
+
+  <div class="scrim" id="scrim"></div>
+  <aside class="drawer" id="drawer" aria-label="Event detail" tabindex="-1"></aside>
+
+  <script src="/static/timeline.js?v=4"></script>
+</body>
+</html>

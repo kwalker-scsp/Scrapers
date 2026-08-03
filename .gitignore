@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- UKR timeline project ---
+# Local SQLite database plus its WAL/SHM sidecar files.
+data/
+# Generated API schema; regenerate with `make openapi`.
+openapi.json

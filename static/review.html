@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Review queue · Russo-Ukrainian War Timeline</title>
+  <link rel="icon" href="/static/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300..700&display=swap" />
+  <link rel="stylesheet" href="/static/style.css?v=4" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Review queue</h1>
+    <span class="topbar__meta" id="queue-count"></span>
+    <span class="spacer"></span>
+    <button type="button" id="theme-toggle" class="ghost" title="Toggle light/dark">◑</button>
+    <a href="/"><button type="button" class="ghost">Public timeline</button></a>
+    <button type="button" id="sign-out" class="ghost hidden">Forget key</button>
+  </header>
+
+  <main class="wrap">
+    <!-- Auth gate. The key is held in sessionStorage only: it clears when the
+         tab closes, so it doesn't linger on a shared machine. -->
+    <section class="panel" id="auth-gate">
+      <h2 style="font-size:15px;">Reviewer sign-in</h2>
+      <p class="muted" style="font-size:13.5px;">
+        Enter the review API key (the <span class="mono">REVIEW_API_KEY</span> value from your
+        <span class="mono">.env</span>). It is kept in this tab's session storage only and sent as
+        an <span class="mono">X-API-Key</span> header.
+      </p>
+      <div class="filters" style="margin-top:10px;">
+        <div class="field" style="flex:2 1 260px;">
+          <label for="auth-key">Review API key</label>
+          <input type="password" id="auth-key" autocomplete="current-password" />
+        </div>
+        <div class="field">
+          <label for="auth-actor">Your name (recorded in the audit log)</label>
+          <input type="text" id="auth-actor" placeholder="e.g. amy" />
+        </div>
+        <button type="button" id="auth-go" class="primary">Sign in</button>
+      </div>
+      <div id="auth-error"></div>
+    </section>
+
+    <div id="app" class="hidden">
+      <section class="panel">
+        <div class="stats" id="stats"></div>
+      </section>
+
+      <section class="panel" style="margin-top:14px;">
+        <div class="filters">
+          <div class="field">
+            <label for="f-status">Status</label>
+            <select id="f-status">
+              <option value="pending">Pending</option>
+              <option value="approved">Approved</option>
+              <option value="rejected">Rejected</option>
+              <option value="auto_closed">Auto-closed (duplicates)</option>
+              <option value="all">All</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-type">Type</label>
+            <select id="f-type">
+              <option value="">New and edits</option>
+              <option value="new">New events only</option>
+              <option value="edit">Edits only</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-scraper">Scraper</label>
+            <input type="text" id="f-scraper" placeholder="any" />
+          </div>
+          <div class="field">
+            <label for="f-order">Order</label>
+            <select id="f-order">
+              <option value="oldest">Oldest first</option>
+              <option value="newest">Newest first</option>
+              <option value="corroboration">Most corroborated</option>
+            </select>
+          </div>
+          <button type="button" id="f-refresh">Refresh</button>
+        </div>
+      </section>
+
+      <div id="queue" style="margin-top:14px;"></div>
+      <div id="more" style="text-align:center;margin:20px 0;"></div>
+    </div>
+  </main>
+
+  <script src="/static/review.js"></script>
+</body>
+</html>

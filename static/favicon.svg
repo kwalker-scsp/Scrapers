@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="6" fill="#2a78d6"/>
+  <!-- A timeline: one exact mark, one approximate span. -->
+  <rect x="6" y="9" width="20" height="2.5" rx="1.25" fill="#fcfcfb"/>
+  <circle cx="9" cy="10.25" r="3" fill="#fcfcfb"/>
+  <rect x="6" y="20" width="20" height="2.5" rx="1.25" fill="#fcfcfb" opacity="0.55"/>
+  <circle cx="9" cy="21.25" r="3" fill="none" stroke="#fcfcfb" stroke-width="2"/>
+</svg>
