@@ -1,0 +1,105 @@
+{% extends "_layout.html" %}
+{% block title_suffix %} — Macro View{% endblock %}
+
+{% block extra_css %}
+    .milestone-card {
+      border: 1px solid var(--border); border-radius: 6px; padding: 14px 16px;
+      border-left: 3px solid var(--brand);
+    }
+    .milestone-card + .milestone-card { margin-top: 10px; }
+    .card-month { font-size: 12px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; }
+{% endblock %}
+
+{% block content %}
+  {% if db_error %}
+    <div class="banner-error">Unable to reach the database — no timeline data to show.</div>
+
+  {% elif not timeline.months %}
+    <div class="panel">
+      <div class="empty">
+        No approved records yet. Approve items in the <a href="/admin">review queue</a> and they will appear here.
+      </div>
+    </div>
+
+  {% else %}
+    <div class="panel">
+      <div class="stats">
+        <div>
+          <div class="stat-label">Months covered</div>
+          <div class="stat-value">{{ timeline.months|length }}</div>
+        </div>
+        <div>
+          <div class="stat-label">Macro milestones</div>
+          <div class="stat-value">{{ timeline.total_milestones }}</div>
+        </div>
+        <div>
+          <div class="stat-label">Tactical events charted</div>
+          <div class="stat-value">{{ timeline.total_events }}</div>
+        </div>
+      </div>
+      {% if timeline.excluded_undated %}
+        <p class="note-line">
+          {{ timeline.excluded_undated }} record{{ '' if timeline.excluded_undated == 1 else 's' }}
+          excluded from the chart for having no usable date.
+        </p>
+      {% endif %}
+    </div>
+
+    <div class="panel">
+      {# Bars measure daily-event volume -- campaign tempo. Milestones are far
+         too sparse (roughly one a month) to make a readable chart. #}
+      <div class="legend">
+        <span class="legend-item"><span class="swatch data"></span>Tactical events recorded per month</span>
+      </div>
+
+      <div class="chart">
+        <div class="bars">
+          {% for m in timeline.months %}
+            <div class="bar-col">
+              <span class="bar-val">{{ m.event_count }}</span>
+              {% if m.milestone_count %}
+                <button type="button" class="bar {% if m.event_count %}has-value{% endif %}"
+                        style="height: {{ (m.event_count / timeline.max_count * 100) if timeline.max_count else 0 }}%;"
+                        onclick="document.getElementById('h-{{ m.month }}').scrollIntoView({behavior:'smooth'});"
+                        title="{{ m.label }}: {{ m.event_count }} tactical events, {{ m.milestone_count }} milestones"
+                        aria-label="{{ m.label }}: {{ m.event_count }} tactical events, {{ m.milestone_count }} milestones"></button>
+              {% else %}
+                <span class="bar {% if m.event_count %}has-value{% endif %}"
+                      style="height: {{ (m.event_count / timeline.max_count * 100) if timeline.max_count else 0 }}%;"
+                      title="{{ m.label }}: {{ m.event_count }} tactical events, no milestones"></span>
+              {% endif %}
+            </div>
+          {% endfor %}
+        </div>
+        <div class="bar-axis">
+          {% for m in timeline.months %}
+            <div class="bar-tick">{{ m.label }}</div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <div class="panel">
+      {% for m in timeline.months if m.milestones %}
+        <div class="month" id="h-{{ m.month }}">
+          <div class="month-head">
+            <h2 class="month-title">{{ m.label }}</h2>
+            <span class="month-meta">{{ m.milestone_count }} milestone{{ '' if m.milestone_count == 1 else 's' }} · {{ m.event_count }} tactical events</span>
+          </div>
+
+          <div class="milestones">
+            {% for ms in m.milestones %}
+              <div class="milestone">
+                <div class="milestone-title">
+                  {{ ms.title }}
+                  {% if ms.category %}<span class="badge">{{ ms.category }}</span>{% endif %}
+                </div>
+                <p class="milestone-body">{{ ms.summary }}</p>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endblock %}

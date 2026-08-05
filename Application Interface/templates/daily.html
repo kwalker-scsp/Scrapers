@@ -1,0 +1,273 @@
+{% extends "_layout.html" %}
+{% block title_suffix %} — Daily Tactical{% endblock %}
+
+{% block extra_css %}
+    .range-bar { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 16px; }
+    .range-bar label { font-size: 13px; color: var(--text-secondary); }
+    .range-bar input[type="date"] {
+      font: inherit; font-size: 13px; padding: 5px 8px; color: var(--text-primary);
+      background: var(--surface-1); border: 1px solid var(--baseline); border-radius: 4px;
+    }
+    .range-btn {
+      font: inherit; font-size: 13px; padding: 5px 10px; cursor: pointer;
+      color: var(--text-primary); background: var(--surface-1);
+      border: 1px solid var(--baseline); border-radius: 4px; text-decoration: none;
+    }
+    .range-btn:hover { border-color: var(--text-muted); }
+    .range-caption { font-size: 13px; color: var(--text-muted); margin-left: auto; }
+
+    /* Search results */
+    .search-panel { border-left: 3px solid var(--brand); }
+    .search-head { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-bottom: 4px; }
+    .search-head h2 { font-size: 16px; margin: 0; }
+    .search-meta { font-size: 13px; color: var(--text-muted); }
+    .hit { border-top: 1px solid var(--gridline); padding: 12px 0; }
+    .hit:first-of-type { border-top: none; }
+    .hit-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+    .hit-date { font-size: 13px; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+    .hit-title { font-weight: 600; font-size: 14px; }
+    .hit-summary { font-size: 13px; color: var(--text-secondary); margin: 4px 0 0; }
+    .hit-why { font-size: 13px; color: var(--text-secondary); margin: 6px 0 0; padding-left: 10px; border-left: 2px solid var(--accent-quiet); }
+    .score {
+      font-size: 12px; font-variant-numeric: tabular-nums; font-weight: 600;
+      padding: 1px 7px; border-radius: 10px; border: 1px solid var(--border); color: var(--text-secondary);
+    }
+    .score-note { font-size: 12px; color: var(--text-muted); margin: 0 0 10px; font-style: italic; }
+    .unlock-error { font-size: 13px; color: var(--critical-text); margin: 0 0 10px; }
+    .refine-wrap { margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--gridline); }
+    .refine-summary {
+      cursor: pointer; font-size: 13px; font-weight: 600; color: var(--accent);
+      display: inline-block; padding: 4px 0;
+    }
+    .refine-body {
+      margin-top: 10px; padding: 12px 14px; border-radius: 6px;
+      border: 1px solid var(--warning);
+    }
+    .refine-warn { font-size: 13px; color: var(--text-secondary); margin: 0 0 12px; }
+    .btn-cancel {
+      font-size: 13px; padding: 7px 12px; text-decoration: none;
+      color: var(--text-secondary); border: 1px solid var(--baseline); border-radius: 5px;
+    }
+    .btn-cancel:hover { color: var(--text-primary); border-color: var(--text-muted); }
+    .refine {
+      display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+    }
+    .refine input[type="password"] {
+      font: inherit; font-size: 13px; padding: 6px 10px; width: 140px;
+      color: var(--text-primary); background: var(--surface-1);
+      border: 1px solid var(--baseline); border-radius: 5px;
+    }
+    .btn-refine {
+      font: inherit; font-size: 13px; font-weight: 600; padding: 7px 14px; cursor: pointer;
+      color: var(--text-primary); background: var(--surface-1);
+      border: 1px solid var(--accent); border-radius: var(--radius-sm);
+    }
+    .btn-refine:hover { background: var(--accent); color: var(--accent-ink); }
+    .refine-note { font-size: 12px; color: var(--text-muted); }
+{% endblock %}
+
+{% block content %}
+  {% if db_error %}
+    <div class="banner-error">Unable to reach the database — no timeline data to show.</div>
+  {% else %}
+
+    {# ---- Search results ---- #}
+    {% if search %}
+      <div class="panel search-panel">
+        <div class="search-head">
+          <h2>Search results for “{{ search.query }}”</h2>
+          <span class="search-meta">
+            {% if search.error %}
+              search failed: {{ search.error }}
+            {% elif search.results %}
+              {{ search.results|length }} of {{ search.candidate_count }} candidates ·
+              {% if search.mode == 'ai' %}AI re-ranked{% else %}local ranking, no API call{% endif %}
+            {% else %}
+              no matches
+            {% endif %}
+          </span>
+          <span style="margin-left:auto; display:flex; gap:14px;">
+            {% if search.mode == 'ai' %}
+              {# Back to the free ranking for the same query, without spending again. #}
+              <a class="backlink" href="/daily?q={{ search.query | urlencode }}{% if end %}&amp;end={{ end }}{% endif %}">Back to local results</a>
+            {% endif %}
+            <a class="backlink" href="/daily">Clear search</a>
+          </span>
+        </div>
+
+        {% if search.mode != 'ai' and search.results %}
+          {# Raw cosine tops out near 0.5 on this corpus, so scores are scaled
+             within this result set. Saying so prevents reading 100% as certainty. #}
+          <p class="score-note">
+            Note: normalized score, not raw similarity — relative ranking within these results.
+          </p>
+        {% endif %}
+        {% if search.ai_failed %}
+          <p class="score-note">AI re-ranking was unavailable; showing local results.</p>
+        {% endif %}
+        {% if unlock_error %}
+          <p class="unlock-error">{{ unlock_error }}</p>
+        {% endif %}
+
+        {% if search.results %}
+          {% for r in search.results %}
+            <div class="hit">
+              <div class="hit-head">
+                <span class="score">{{ r.relevance }}%</span>
+                {# Explicit long-form date: Month DD, YYYY #}
+                <span class="hit-date">{{ r.display_date }}</span>
+                <span class="hit-title">{{ r.title }}</span>
+                {% if r.uncertain %}<span class="badge warn">approximate date</span>{% endif %}
+                {% if r.review_status != 'APPROVED' %}<span class="badge">{{ r.review_status|title }}</span>{% endif %}
+              </div>
+              <p class="hit-summary">{{ r.summary }}</p>
+              {% if r.explanation %}
+                <p class="hit-why">{{ r.explanation }}</p>
+              {% endif %}
+            </div>
+          {% endfor %}
+        {% elif not search.error %}
+          <div class="empty">Nothing matched that query.</div>
+        {% endif %}
+
+        {% if search.results and search.mode != 'ai' %}
+          {# Opt-in only -- everything above this point was free.
+             Two deliberate steps guard the spend: opening this panel does
+             nothing on its own, and the call only fires once the password is
+             typed and Confirm is pressed. Built on <details> so the expand and
+             the Cancel both work without JavaScript. #}
+          <details class="refine-wrap">
+            <summary class="refine-summary">Refine with AI — uses one API call</summary>
+            <div class="refine-body">
+              <p class="refine-warn">
+                This sends the {{ search.candidate_count }} candidates above to Gemini for
+                semantic re-ranking and a written reason per match.
+                <strong>It spends one of roughly 20 free calls per day.</strong>
+                The local results below stay available either way.
+              </p>
+              <form class="refine" method="POST" action="/search/refine">
+                <input type="hidden" name="q" value="{{ search.query }}" />
+                <input type="hidden" name="end" value="{{ end }}" />
+                <input type="password" name="password" placeholder="Password" required
+                       aria-label="Password to authorize one AI re-ranking call" />
+                <button type="submit" class="btn-refine">Confirm — use one call</button>
+                {# Cancel simply re-runs the free search: no API call, panel closed. #}
+                <a class="btn-cancel"
+                   href="/daily?q={{ search.query | urlencode }}{% if end %}&amp;end={{ end }}{% endif %}">Cancel</a>
+              </form>
+            </div>
+          </details>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    {# ---- 30-day window ---- #}
+    <div class="panel">
+      {# The picked date is the LAST day of the window, so the default view
+         always tracks the most recent 30 days as the scraper advances. #}
+      <form class="range-bar" method="GET" action="/daily">
+        <label for="end">30 days ending</label>
+        <input type="date" id="end" name="end" value="{{ timeline.end }}"
+               onchange="this.form.submit()" />
+        <noscript><button type="submit" class="range-btn">Go</button></noscript>
+        <a class="range-btn" href="/daily?end={{ timeline.prev_end }}">◀ 30 days</a>
+        <a class="range-btn" href="/daily?end={{ timeline.next_end }}">30 days ▶</a>
+        <a class="range-btn" href="/daily?end={{ today }}">Today</a>
+        <span class="range-caption">{{ timeline.start_label }} — {{ timeline.end_label }}</span>
+      </form>
+
+      <div class="stats">
+        <div>
+          <div class="stat-label">Events in window</div>
+          <div class="stat-value">{{ timeline.total_events }}</div>
+        </div>
+        <div>
+          <div class="stat-label">Days with activity</div>
+          <div class="stat-value">{{ timeline.active_days }}</div>
+        </div>
+        <div>
+          <div class="stat-label">Busiest day</div>
+          <div class="stat-value">{{ timeline.max_count }}</div>
+        </div>
+      </div>
+      {% if timeline.excluded_undated %}
+        <p class="note-line">
+          {{ timeline.excluded_undated }} record{{ '' if timeline.excluded_undated == 1 else 's' }}
+          in range excluded from the chart for having no usable date.
+        </p>
+      {% endif %}
+    </div>
+
+    {% if timeline.total_events %}
+      <div class="panel">
+        <div class="legend">
+          <span class="legend-item"><span class="swatch data"></span>Tactical events per day</span>
+          <span class="legend-item"><span class="swatch hollow"></span>Approximate date</span>
+          {# Sources are named in text on every row, so they need no hue. #}
+          {% if timeline.sources %}
+            <span class="legend-item source-key">Sources:
+              {% for s in timeline.sources %}{{ s.label }} ({{ s.count }}){% if not loop.last %} · {% endif %}{% endfor %}
+            </span>
+          {% endif %}
+        </div>
+
+        <div class="chart">
+          <div class="bars">
+            {% for d in timeline.days %}
+              <div class="bar-col day-col">
+                <span class="bar-val">{{ d.count or '' }}</span>
+                {% if d.count %}
+                  <button type="button" class="bar has-value"
+                          style="height: {{ d.count / timeline.max_count * 100 }}%;"
+                          onclick="document.getElementById('d-{{ d.date }}').scrollIntoView({behavior:'smooth'});"
+                          title="{{ d.long_label }}: {{ d.count }} event{{ '' if d.count == 1 else 's' }}"
+                          aria-label="{{ d.long_label }}: {{ d.count }} events"></button>
+                {% else %}
+                  <span class="bar empty" title="{{ d.long_label }}: no events"></span>
+                {% endif %}
+              </div>
+            {% endfor %}
+          </div>
+          <div class="bar-axis">
+            {% for d in timeline.days %}
+              <div class="bar-tick day-tick">{{ d.label }}</div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+      <div class="panel">
+        {% for d in timeline.days if d.count %}
+          <div class="day" id="d-{{ d.date }}">
+            <div class="day-head">
+              {# Explicit long-form date: Month DD, YYYY #}
+              <h2 class="day-title">{{ d.long_label }}</h2>
+              <span class="day-meta">{{ d.count }} event{{ '' if d.count == 1 else 's' }}</span>
+            </div>
+            <div class="day-events">
+              {% for e in d.events %}
+                <div class="event">
+                  <div class="event-source">{{ e.source_name or '—' }}</div>
+                  <div class="event-body">
+                    <span class="marker {% if e.uncertain %}approx{% endif %}"></span>
+                    <span class="event-title">{{ e.title }}</span>
+                    {% if e.uncertain %}<span class="badge warn">approximate date</span>{% endif %}
+                    {% if e.duplicate %}<span class="badge warn">possible duplicate</span>{% endif %}
+                    <p class="event-summary">{{ e.summary }}</p>
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    {% else %}
+      <div class="panel">
+        <div class="empty">
+          No approved tactical events between {{ timeline.start_label }} and {{ timeline.end_label }}.
+          Try another 30-day window, or approve items in the <a href="/admin">review queue</a>.
+        </div>
+      </div>
+    {% endif %}
+  {% endif %}
+{% endblock %}

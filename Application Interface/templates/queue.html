@@ -1,0 +1,192 @@
+{% extends "_layout.html" %}
+{% block title_suffix %} — Admin Review{% endblock %}
+
+{% block extra_css %}
+    /* Admin sub-navigation stays anchored so the analyst never loses context
+       when toggling between queues and status filters. */
+    .admin-nav {
+      max-width: 1100px; margin: 0 auto 12px; padding: 10px 14px;
+      background: var(--surface-1); border: 1px solid var(--border); border-radius: 8px;
+      position: sticky; top: 0; z-index: 10;
+    }
+    .admin-row { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+    .admin-row + .admin-row { margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--gridline); }
+    .admin-row .row-label {
+      font-size: 11px; color: var(--text-muted); text-transform: uppercase;
+      letter-spacing: 0.04em; margin-right: 4px; min-width: 52px;
+    }
+    .admin-nav a {
+      padding: 5px 12px; font-size: 13px; text-decoration: none; border-radius: 5px;
+      color: var(--text-secondary); border: 1px solid transparent;
+    }
+    .admin-nav a:hover { border-color: var(--baseline); color: var(--text-primary); }
+    .admin-nav a.active {
+      color: var(--accent-ink); background: var(--accent); font-weight: 600; border-color: var(--accent);
+    }
+
+    .admin-table { max-width: 1100px; margin: 0 auto 20px; }
+    .admin-table table { width: 100%; border-collapse: collapse; background: var(--surface-1); }
+    .admin-table th, .admin-table td {
+      text-align: left; padding: 10px; border-bottom: 1px solid var(--gridline);
+      font-size: 13px; vertical-align: top;
+    }
+    .admin-table th { font-size: 12px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; }
+    /* Titles wrap in full; nothing about an event title may be clipped. */
+    .admin-table td strong { display: block; white-space: normal; overflow-wrap: anywhere; margin-bottom: 4px; }
+    .admin-table textarea, .admin-table input[type="text"] {
+      width: 100%; box-sizing: border-box; font: inherit; font-size: 13px;
+      padding: 6px; border: 1px solid var(--baseline); border-radius: 4px;
+      background: var(--surface-1); color: var(--text-primary);
+    }
+    .actions-bar { display: flex; gap: 10px; justify-content: flex-end; margin-top: 14px; }
+    .btn-save, .btn-merge {
+      font: inherit; font-size: 14px; padding: 8px 16px; border-radius: 5px; cursor: pointer; border: none;
+    }
+    .btn-save { background: var(--accent); color: var(--accent-ink); }
+    .btn-merge { background: var(--surface-1); color: var(--text-primary); border: 1px solid var(--baseline); }
+    .badge-note { display: inline-block; font-size: 11px; padding: 1px 6px; border-radius: 3px; border: 1px solid var(--warning); color: var(--text-secondary); }
+    .source-link { color: var(--accent); }
+{% endblock %}
+
+{% block content %}
+  {% if error %}
+    <div class="banner-error">{{ error }}</div>
+  {% endif %}
+
+  {% if db_error %}
+    <div class="banner-error">
+      Check database connection, unable to connect
+    </div>
+  {% else %}
+
+    <div class="admin-nav">
+      <div class="admin-row">
+        <span class="row-label">Queue</span>
+        <a href="/">Home</a>
+        <a href="/admin?queue_type=monthly&status={{ status }}" class="{% if queue_type == 'monthly' %}active{% endif %}">Monthly Queue</a>
+        <a href="/admin?queue_type=daily&status={{ status }}" class="{% if queue_type == 'daily' %}active{% endif %}">Daily Queue</a>
+        <a href="/admin?queue_type=duplicate" class="{% if queue_type == 'duplicate' %}active{% endif %}">Duplicate Queue</a>
+      </div>
+      {% if queue_type != 'duplicate' %}
+        <div class="admin-row">
+          <span class="row-label">Status</span>
+          <a href="/admin?queue_type={{ queue_type }}&status=pending" class="{% if status == 'pending' %}active{% endif %}">Pending</a>
+          <a href="/admin?queue_type={{ queue_type }}&status=approved" class="{% if status == 'approved' %}active{% endif %}">Approved</a>
+          <a href="/admin?queue_type={{ queue_type }}&status=declined" class="{% if status == 'declined' %}active{% endif %}">Declined</a>
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="admin-table">
+      {% if records %}
+        <form action="/batch-save" method="POST">
+          <input type="hidden" name="queue_type" value="{{ queue_type }}" />
+          <input type="hidden" name="status" value="{{ status }}" />
+
+          <table>
+            <thead>
+              <tr>
+                <th style="width: 40px;">Select</th>
+                <th style="width: 120px;">Date / Month</th>
+                <th>Title &amp; Summary</th>
+                <th style="width: 160px;">Source</th>
+                <th style="width: 140px;">Notes</th>
+                <th style="width: 150px;">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for r in records %}
+                <tr>
+                  <td>
+                    <input type="checkbox" name="selected_ids" value="{{ r.id }}" />
+                  </td>
+                  <td>
+                    <input type="hidden" name="event_id" value="{{ r.id }}" />
+                    <input type="text" name="date_{{ r.id }}" value="{{ r.event_date if queue_type == 'daily' else r.event_month }}" />
+                  </td>
+                  <td>
+                    <strong>{{ r.title }}</strong>
+                    <textarea name="summary_{{ r.id }}" rows="3">{{ r.summary }}</textarea>
+                  </td>
+                  <td>
+                    <a href="{{ r.source_url|safe_url }}" target="_blank" rel="noopener noreferrer" class="source-link">{{ r.source_name or 'Source Link' }}</a>
+                  </td>
+                  <td>
+                    {% if r.notes %}
+                      <span class="badge-note">{{ r.notes }}</span>
+                    {% endif %}
+                  </td>
+                  <td>
+                    {% if status == 'pending' %}
+                      <label><input type="radio" name="action_{{ r.id }}" value="approve" /> Approve</label><br/>
+                      <label><input type="radio" name="action_{{ r.id }}" value="decline" /> Decline</label>
+                    {% elif status == 'approved' %}
+                      <label><input type="radio" name="action_{{ r.id }}" value="decline" /> Move to Declined</label>
+                    {% elif status == 'declined' %}
+                      <label><input type="radio" name="action_{{ r.id }}" value="approve" /> Move to Approved</label>
+                    {% endif %}
+                  </td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+
+          <div class="actions-bar">
+            <button type="submit" formaction="/merge-preview" class="btn-merge">Merge Selected</button>
+            <button type="submit" class="btn-save">Save Changes</button>
+          </div>
+        </form>
+
+      {% elif duplicate_records %}
+        <form action="/duplicate-resolve" method="POST">
+          <table>
+            <thead>
+              <tr>
+                <th>Incoming Event</th>
+                <th>Matched Existing Event</th>
+                <th style="width: 90px;">Similarity</th>
+                <th style="width: 160px;">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for d in duplicate_records %}
+                <tr>
+                  <td>
+                    <input type="hidden" name="duplicate_id" value="{{ d.id }}" />
+                    <strong>{{ d.incoming_title }}</strong> ({{ d.incoming_date }})
+                    <p>{{ d.incoming_summary }}</p>
+                  </td>
+                  <td>
+                    <strong>{{ d.existing_title }}</strong>
+                    <p>{{ d.existing_summary }}</p>
+                  </td>
+                  <td>
+                    <strong>
+                      {% if d.similarity_score is not none %}{{ "%.2f"|format(d.similarity_score) }}{% else %}—{% endif %}
+                    </strong>
+                  </td>
+                  <td>
+                    <label><input type="radio" name="dup_action_{{ d.id }}" value="merge" /> Merge Source</label><br/>
+                    <label><input type="radio" name="dup_action_{{ d.id }}" value="keep" /> Keep Both</label>
+                  </td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+
+          <div class="actions-bar">
+            <button type="submit" class="btn-save">Resolve Selected</button>
+          </div>
+        </form>
+
+      {% else %}
+        <div class="panel">
+          <div class="empty">
+            No {{ status }} {{ queue_type }} events for review
+          </div>
+        </div>
+      {% endif %}
+    </div>
+
+  {% endif %}
+{% endblock %}

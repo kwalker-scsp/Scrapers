@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Russo-Ukrainian War Timeline{% block title_suffix %}{% endblock %}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300..700&family=IBM+Plex+Mono:wght@400;600&display=swap" />
+  <link rel="stylesheet" href="/static/style.css" />
+  <style>
+    /* Every colour below comes from the tokens style.css already defines --
+       nothing here introduces a hue. Following that file's documented split:
+         --brand  (red)  = the data itself: timeline bars, event markers
+         --accent (navy) = things you operate: buttons, links, focus, active tab
+       Dark mode needs no rules here either; the tokens already flip. */
+
+    body {
+      margin: 0;
+      font-family: var(--font);
+      background: var(--surface-page);
+      color: var(--text-primary);
+    }
+    .viz-root { background: var(--surface-page); min-height: 100vh; padding: 24px; }
+
+    /* Permanent header. The title is anchored top-left and is identical on
+       every page; only the subtitle beneath it changes per section. */
+    .site-head {
+      max-width: 1100px; margin: 0 auto 16px;
+      display: flex; align-items: flex-start; justify-content: space-between;
+      gap: 24px; flex-wrap: wrap;
+    }
+    .site-title {
+      font-size: 26px; font-weight: 700; margin: 0; letter-spacing: -0.01em;
+      color: var(--text-primary); text-decoration: none; display: block;
+    }
+    .site-subtitle { font-size: 14px; color: var(--text-secondary); margin: 4px 0 0; }
+
+    /* Search anchored top-right, public sections only. */
+    .site-search { display: flex; gap: 6px; align-items: center; margin-left: auto; }
+    .site-search input[type="search"] {
+      font: inherit; font-size: 14px; padding: 7px 12px; width: 300px; max-width: 46vw;
+      color: var(--text-primary); background: var(--surface-1);
+      border: 1px solid var(--baseline); border-radius: 6px;
+    }
+    .site-search input[type="search"]:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+    .site-search button {
+      font: inherit; font-size: 14px; padding: 7px 14px; cursor: pointer;
+      color: var(--accent-ink); background: var(--accent); border: none; border-radius: var(--radius-sm);
+    }
+
+    .nav-main { max-width: 1100px; margin: 0 auto 20px; display: flex; gap: 4px; border-bottom: 1px solid var(--gridline); }
+    .nav-main a {
+      padding: 9px 18px; font-size: 14px; text-decoration: none;
+      color: var(--text-secondary); border-bottom: 2px solid transparent; margin-bottom: -1px;
+    }
+    .nav-main a.active { color: var(--text-primary); font-weight: 600; border-bottom-color: var(--accent); }
+    .nav-main a:hover { color: var(--text-primary); }
+
+    .panel {
+      max-width: 1100px; margin: 0 auto 20px; background: var(--surface-1);
+      border: 1px solid var(--border); border-radius: var(--radius); padding: 20px;
+    }
+
+    .stats { display: flex; gap: 32px; flex-wrap: wrap; }
+    .stat-label { font-size: 12px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; }
+    .stat-value { font-size: 28px; font-weight: 600; }
+
+    /* Legend — identity is never carried by color alone. */
+    .legend { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 16px; font-size: 13px; color: var(--text-secondary); }
+    .legend-item { display: flex; align-items: center; gap: 6px; }
+    .swatch { width: 10px; height: 10px; border-radius: 2px; flex: none; }
+    .swatch.data { background: var(--brand); }
+    .legend .source-key { color: var(--text-muted); }
+    .swatch.hollow { background: transparent; border: 2px solid var(--text-muted); border-radius: 50%; }
+
+    /* Volume chart */
+    .chart { overflow-x: auto; padding-bottom: 4px; }
+    .bars { display: flex; align-items: flex-end; gap: 2px; height: 140px; border-bottom: 1px solid var(--baseline); min-width: min-content; }
+    .bar-col { display: flex; flex-direction: column; justify-content: flex-end; align-items: center; width: 34px; flex: none; height: 100%; }
+    .bar {
+      width: 100%; background: var(--brand);
+      border-radius: 4px 4px 0 0;
+      border: none; padding: 0;
+    }
+    /* Only bars carrying a non-zero count get a floor height. A blanket
+       min-height made zero-count columns look like real data. */
+    .bar.has-value { min-height: 3px; }
+    button.bar { cursor: pointer; }
+    button.bar:hover, button.bar:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+    .bar-val { font-size: 11px; color: var(--text-secondary); font-variant-numeric: tabular-nums; margin-bottom: 2px; }
+    .bar-axis { display: flex; gap: 2px; min-width: min-content; margin-top: 6px; }
+    .bar-tick { width: 34px; flex: none; font-size: 10px; color: var(--text-muted); text-align: center; writing-mode: vertical-rl; }
+    .day-col, .day-tick { width: 30px; }
+    /* A day with no events draws nothing. It used to paint a 2px grey tick,
+       and a run of quiet days merged into what looked like one long grey bar
+       laid across the chart. The container's baseline already carries the
+       axis, so absence should simply read as empty space. */
+    .bar.empty { background: transparent; min-height: 0; height: 0; cursor: default;
+      outline: none !important; pointer-events: none; }
+
+    /* Month / day detail */
+    .month, .day { border-top: 1px solid var(--gridline); padding: 16px 0; }
+    .month:first-of-type, .day:first-of-type { border-top: none; }
+    .month-head, .day-head { display: flex; align-items: baseline; gap: 12px; }
+    .month-title, .day-title { font-size: 16px; font-weight: 600; margin: 0; }
+    .month-meta, .day-meta { font-size: 13px; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+    .day-events { margin-top: 8px; }
+
+    .milestones { margin: 12px 0 0; padding: 12px 14px; border-left: 3px solid var(--brand); border-radius: 0 4px 4px 0; }
+    .milestone + .milestone { margin-top: 10px; }
+    .milestone-title { font-weight: 600; font-size: 14px; }
+    .milestone-body { font-size: 13px; color: var(--text-secondary); margin: 2px 0 0; }
+
+    .event { display: flex; gap: 12px; padding: 8px 0; border-top: 1px solid var(--gridline); font-size: 13px; }
+    .event-date { flex: none; width: 92px; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+    .event-source { flex: none; width: 140px; color: var(--text-muted); font-size: 12px; }
+    .event-body { flex: 1; min-width: 0; }
+    .event-title { font-weight: 600; }
+    .event-summary { color: var(--text-secondary); margin: 2px 0 0; }
+    .marker {
+      display: inline-block; width: 8px; height: 8px; border-radius: 50%;
+      margin-right: 6px; vertical-align: middle; flex: none;
+      background: var(--brand);
+    }
+    /* Precision is carried by SHAPE, not hue -- an open marker for an
+       approximate date, solid for an exact one. Matches style.css's rule. */
+    .marker.approx { background: transparent; border: 2px solid var(--text-muted); }
+
+    /* Titles must never be clipped -- an event title carries the meaning, and
+       an ellipsis in the middle of it loses the point of the record. */
+    .event-title, .milestone-title, .month-title, .day-title,
+    td .event-title, table td strong {
+      white-space: normal !important;
+      overflow: visible !important;
+      text-overflow: clip !important;
+      word-wrap: break-word;
+      overflow-wrap: anywhere;
+    }
+
+    .badge { display: inline-block; font-size: 11px; padding: 1px 6px; border-radius: 3px; border: 1px solid var(--border); color: var(--text-secondary); margin-left: 6px; }
+    .badge.warn { border-color: var(--warning); }
+    .empty { color: var(--text-muted); font-size: 14px; text-align: center; padding: 32px; }
+    .note-line { font-size: 12px; color: var(--text-muted); margin-top: 10px; }
+    .banner-error {
+      max-width: 1100px; margin: 0 auto 20px; padding: 12px 16px;
+      border-radius: var(--radius-sm); font-size: 14px;
+      background: var(--critical-wash); color: var(--critical-text);
+      border: 1px solid var(--critical);
+    }
+    .backlink { color: var(--text-secondary); font-size: 14px; text-decoration: none; }
+    .backlink:hover { text-decoration: underline; }
+    {% block extra_css %}{% endblock %}
+  </style>
+</head>
+<body>
+<div class="viz-root">
+
+  <header class="site-head">
+    <div>
+      <a class="site-title" href="/">Russo-Ukrainian War Timeline</a>
+      <p class="site-subtitle">{{ subtitle }}</p>
+    </div>
+
+    {% if section != 'admin' %}
+      <form class="site-search" method="GET" action="/daily" role="search">
+        <input type="search" name="q" value="{{ (search.query if search else '') or '' }}"
+               placeholder="Search events semantically…" aria-label="Search timeline events" />
+        <button type="submit">Search</button>
+      </form>
+    {% endif %}
+  </header>
+
+  <nav class="nav-main">
+    <a href="/" class="{% if section == 'home' %}active{% endif %}">Home</a>
+    <a href="/daily" class="{% if section == 'daily' %}active{% endif %}">Daily Timeline</a>
+    <a href="/admin" class="{% if section == 'admin' %}active{% endif %}">Admin</a>
+  </nav>
+
+  {% block content %}{% endblock %}
+
+</div>
+</body>
+</html>

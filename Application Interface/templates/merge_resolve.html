@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Resolve Duplicate Merge</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300..700&family=IBM+Plex+Mono:wght@400;600&display=swap" />
+  <style>
+    :root { --brand: #B31942; --navy: #00334E; --accent: #0A3161; --font: 'Outfit', sans-serif; }
+    body { font-family: var(--font); background: #F0F0F0; margin: 0; padding: 24px; color: var(--navy); }
+    .card { background: white; padding: 24px; border-radius: 8px; max-width: 900px; margin: 0 auto; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    h2 { margin-top: 0; color: var(--navy); border-bottom: 2px solid var(--brand); padding-bottom: 8px; }
+    .option-block { border: 1px solid #CCC; border-radius: 6px; padding: 12px; margin-bottom: 12px; background: #FAFDFD; }
+    textarea { width: 100%; border: 1px solid #CCC; border-radius: 4px; padding: 8px; box-sizing: border-box; }
+    .btn-confirm { background: var(--brand); color: white; border: none; padding: 12px 24px; font-size: 15px; font-weight: 600; border-radius: 4px; cursor: pointer; }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h2>Resolve Duplicate Merge ({{ records|length }} Events Selected)</h2>
+    <p>Select which event serves as the primary record, choose which summary to retain, or write a custom combined summary.</p>
+
+    <form action="/confirm-merge" method="POST">
+      <input type="hidden" name="queue_type" value="{{ queue_type }}" />
+      {% for r in records %}
+        <input type="hidden" name="selected_ids" value="{{ r.id }}" />
+      {% endfor %}
+
+      <div style="margin-bottom: 16px;">
+        <label><strong>Select Primary Event Record ID:</strong></label>
+        <select name="primary_id">
+          {% for r in records %}
+            <option value="{{ r.id }}">Event #{{ r.id }} - {{ r.title }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div style="margin-bottom: 16px;">
+        <label><strong>Event Date to Keep:</strong></label>
+        <input type="text" name="final_date" value="{{ records[0].event_date if queue_type == 'daily' else records[0].event_month }}" />
+      </div>
+
+      <h3>Choose Summary Option:</h3>
+      {# The radio carries a record reference, not the summary text itself: a
+         summary equal to the literal string "custom" would otherwise collide
+         with the custom-entry sentinel. The text travels in a hidden field. #}
+      {% for r in records %}
+        <div class="option-block">
+          <label>
+            <input type="radio" name="summary_choice" value="record:{{ r.id }}" {% if loop.first %}checked{% endif %} />
+            <strong>Use Summary from Event #{{ r.id }}:</strong>
+          </label>
+          <input type="hidden" name="summary_text_{{ r.id }}" value="{{ r.summary if queue_type == 'daily' else r.strategic_summary }}" />
+          <p style="margin: 6px 0 0 24px;">{{ r.summary if queue_type == 'daily' else r.strategic_summary }}</p>
+        </div>
+      {% endfor %}
+
+      <div class="option-block">
+        <label>
+          <input type="radio" name="summary_choice" value="custom" />
+          <strong>Type Custom Combined Summary:</strong>
+        </label>
+        <textarea name="custom_summary" rows="4" placeholder="Enter custom combined text here..."></textarea>
+      </div>
+
+      <div style="text-align: right; margin-top: 20px;">
+        <a href="/admin?queue_type={{ queue_type }}&status=pending" style="margin-right: 12px; color: var(--navy); text-decoration: none;">Cancel</a>
+        <button type="submit" class="btn-confirm">Confirm & Finalize Merge</button>
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>
