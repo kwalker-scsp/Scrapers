@@ -1,0 +1,38 @@
+# Russo-Ukrainian War Timeline pipeline + review app.
+# Pinned to the versions verified working on Python 3.11.
+# Install with:  pip install -r requirements.txt
+#
+# Python 3.10+ is required: pipeline.py uses `str | None` union syntax.
+
+# --- Scraper (scraping.py, pipeline.py) ---
+# Crawl4AI pulls in playwright, but the browser binaries are a SEPARATE
+# download -- run `crawl4ai-setup` after installing. Without it, crawls fail.
+Crawl4AI==0.9.2
+
+# --- LLM extraction + search re-ranking ---
+google-genai==2.16.0
+
+# --- Local ONNX embeddings (embedding.py) ---
+# Needs model.onnx and tokenizer.json present; see README.
+onnxruntime==1.27.0
+tokenizers==0.23.1
+numpy==2.4.6
+
+# --- Database ---
+psycopg2-binary==2.9.12
+
+# --- Review / timeline web app (Application Interface/app.py) ---
+fastapi==0.141.1
+uvicorn==0.52.0
+pydantic==2.13.4
+
+# Jinja2 and python-multipart are NEVER imported directly by our code, so an
+# import scan will not find them -- do not prune them.
+#   Jinja2           backs fastapi.templating.Jinja2Templates (every page)
+#   python-multipart backs `await request.form()` (every review/search POST;
+#                    without it, form submissions fail at runtime only)
+Jinja2==3.1.6
+python-multipart==0.0.32
+
+# --- Config ---
+python-dotenv==1.2.2
